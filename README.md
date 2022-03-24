@@ -2,8 +2,8 @@
 
 Things that need to be standardised so that the code doesn't break:
 
-Android version used for development:
-SDK version:
+Name: WashWash1
+Android version used for development: API 29: Android 10.0
 
 Current structure:
 1. Landing page (MainActivity.java + activity_main.xml): Contains the 3 BLK buttons to be selected
@@ -17,7 +17,7 @@ Card layout:
 
 Things to note:
 1. GridView and GridLayout
-2. ScrollView
+2. RelativeLayout -> NavBar -> ScrollView -> GridLayout -> CardView -> ImageView & TextView (link to remaining_time using java) 
 
 How do we refresh the washer/dryer page and how often?
 1. 
