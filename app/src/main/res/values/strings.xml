@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">WashWatch</string>
-    <string name="red_washer">red washer</string>
-    <string name="title_activity_nav_bar">NavBar</string>
-    <string name="title_home">Washers</string>
-    <string name="title_dashboard">Dryers</string>
-    <string name="title_notifications">Notifications</string>
-</resources>
