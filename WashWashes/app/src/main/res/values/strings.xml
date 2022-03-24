@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">WashWash1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Washers</string>
+    <string name="title_dashboard">Dryers</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_nav_bar">NavBar</string>
+    <string name="machine_1">Machine 1</string>
+    <string name="machine_2">Machine 2</string>
+    <string name="machine_3">Machine 3</string>
+    <string name="machine_4">Machine 4</string>
+    <string name="machine_5">Machine 5</string>
+    <string name="machine_6">Machine 6</string>
+    <string name="machine_7">Machine 7</string>
+    <string name="machine_8">Machine 8</string>
+    <string name="machine_9">Machine 9</string>
+    <string name="machine_10">Machine 10</string>
+    <string name="machine_11">Machine 11</string>
+    <string name="machine_12">Machine 12</string>
 </resources>
