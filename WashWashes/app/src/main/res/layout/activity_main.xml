@@ -10,37 +10,75 @@
     android:paddingLeft="2dp"
     android:paddingRight="2dp"
     android:paddingTop="2dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
 
-    <ImageButton
+<!--    <ImageButton-->
+<!--        android:id="@+id/block55"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        app:srcCompat="@drawable/block55" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/block57"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        app:srcCompat="@drawable/block57" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/block59"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        app:srcCompat="@drawable/block59" />-->
+    <Button
         android:id="@+id/block55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_marginLeft="3dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/block55" />
+        android:text="@string/block_55"
+        android:textSize="40dp"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button55"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/block57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_marginLeft="3dp"
-        android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/block57" />
+        android:text="@string/block_57"
+        android:textSize="40dp"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button57"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/block59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_marginLeft="3dp"
-        app:srcCompat="@drawable/block59" />
+        android:text="@string/block_59"
+        android:textSize="40dp"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/button59"/>
 
 </LinearLayout>
