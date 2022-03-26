@@ -36,4 +36,31 @@
     <string name="block_59">Block 59</string>
     <string name="block_57">Block 57</string>
     <string name="block_55">Block 55</string>
+
+    <string name="washer_t1">45min</string>
+    <string name="washer_t2">44min</string>
+    <string name="washer_t3">43min</string>
+    <string name="washer_t4">42min</string>
+    <string name="washer_t5">41min</string>
+    <string name="washer_t6">40min</string>
+    <string name="washer_t7">39min</string>
+    <string name="washer_t8">38min</string>
+    <string name="washer_t9">37min</string>
+    <string name="washer_t10">36min</string>
+    <string name="washer_t11">35min</string>
+    <string name="washer_t12">34min</string>
+
+    <string name="dryer_t1">30min</string>
+    <string name="dryer_t2">29min</string>
+    <string name="dryer_t3">28min</string>
+    <string name="dryer_t4">27min</string>
+    <string name="dryer_t5">26min</string>
+    <string name="dryer_t6">25min</string>
+    <string name="dryer_t7">24min</string>
+    <string name="dryer_t8">23min</string>
+    <string name="dryer_t9">22min</string>
+    <string name="dryer_t10">21min</string>
+    <string name="dryer_t11">20min</string>
+    <string name="dryer_t12">19min</string>
+
 </resources>
