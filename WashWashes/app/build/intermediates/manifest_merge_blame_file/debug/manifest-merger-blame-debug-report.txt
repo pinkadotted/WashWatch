@@ -10,80 +10,86 @@
 9        android:targetSdkVersion="32" />
 9-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:5:5-29:19
-12        android:allowBackup="true"
-12-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/02483169c4c9e0ddffa88758188ac6f1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.WashWash1" >
-21-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:11:9-47
-22        <activity
-22-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:12:9-20:20
-23            android:name="com.example.washwash1.MainActivity"
-23-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:13:13-41
-24            android:exported="true" >
-24-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:14:13-36
-25            <intent-filter>
-25-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:17-69
-26-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:17-77
-28-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity
-31-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:21:9-24:55
-32            android:name="com.example.washwash1.Washer"
-32-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:22:13-35
-33            android:label="@string/washer"
-33-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:24:13-43
-34            android:parentActivityName="com.example.washwash1.MainActivity" />
-34-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:23:13-55
-35        <activity
-35-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:25:9-28:54
-36            android:name="com.example.washwash1.Dryer"
-36-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:26:13-34
-37            android:label="@string/dryer"
-37-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:28:13-42
-38            android:parentActivityName="com.example.washwash1.MainActivity" />
-38-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:27:13-55
-39
-40        <provider
-40-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-42            android:authorities="com.example.washwash1.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-44            <meta-data
-44-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/278083bef5dd79cb476949a0d92ce592/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-47            <meta-data
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/4d932a67b7be3c4366d55752ebd69384/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/4d932a67b7be3c4366d55752ebd69384/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-49                android:value="androidx.startup" />
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/4d932a67b7be3c4366d55752ebd69384/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-50        </provider>
-51    </application>
-52
-53</manifest>
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:9:5-79
+11-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:10:5-67
+12-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:10:22-64
+13
+14    <application
+14-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:5:5-29:19
+15        android:allowBackup="true"
+15-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/cca9e1846deb679392c0ecf7a210398c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:10:9-35
+23        android:theme="@style/Theme.WashWash1" >
+23-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:11:9-47
+24        <activity
+24-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:12:9-20:20
+25            android:name="com.example.washwash1.MainActivity"
+25-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:13:13-41
+26            android:exported="true" >
+26-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:14:13-36
+27            <intent-filter>
+27-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:15:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:17-69
+28-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:17-77
+30-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:21:9-24:46
+34            android:name="com.example.washwash1.Washer"
+34-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:22:13-35
+35            android:label="@string/washer"
+35-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:24:13-43
+36            android:parentActivityName="com.example.washwash1.MainActivity" />
+36-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:23:13-55
+37        <activity
+37-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:25:9-28:54
+38            android:name="com.example.washwash1.Dryer"
+38-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:26:13-34
+39            android:label="@string/dryer"
+39-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:28:13-42
+40            android:parentActivityName="com.example.washwash1.MainActivity" />
+40-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:27:13-55
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+44            android:authorities="com.example.washwash1.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/03431952b45df05a4a463e9b9b07da89/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/df083efbd7fa73199e742832284b0b95/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/df083efbd7fa73199e742832284b0b95/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/df083efbd7fa73199e742832284b0b95/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

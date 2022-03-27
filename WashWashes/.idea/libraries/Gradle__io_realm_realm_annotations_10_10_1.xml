@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-annotations:10.10.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/10.10.1/30abb327da23de2e75591437150149dfb6fd966c/realm-annotations-10.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/10.10.1/1d62e4bdbbf56c3826a3ddee05b301877fcbe98d/realm-annotations-10.10.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/10.10.1/a26bf96b11203510941ee95bd00ea0e33472ff09/realm-annotations-10.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

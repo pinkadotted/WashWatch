@@ -4,26 +4,7 @@
             "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/631c254547bfc5df4d5287473bf942d8/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3524",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3669"
-                    }
-                },
-                {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f791586eb8e3cddcf33fb36842d7675a/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7b1ece42d298f005ae3f5900fe7bb9c3/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -50,6 +31,25 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    }
+                },
+                {
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1c69d469ac2c3ba59c41ea1012ccd10/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3524",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3669"
                     }
                 }
             ]
