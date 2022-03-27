@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/block55"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        app:srcCompat="@drawable/block55" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/block57"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        app:srcCompat="@drawable/block57" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/block59"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_marginLeft="3dp"-->
+<!--        app:srcCompat="@drawable/block59" />-->
+    <Button
+        android:id="@+id/block55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button55"
+        android:paddingLeft="60sp"
+        android:paddingTop="20dp"
+        android:paddingRight="60sp"
+        android:paddingBottom="20dp"
+        android:text="@string/block_55"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/block57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/block_57"
+        android:textSize="40sp"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button57"/>
+
+    <Button
+        android:id="@+id/block59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/block_59"
+        android:textSize="40sp"
+        android:paddingLeft="60sp"
+        android:paddingRight="60sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/button59"/>
+
+</LinearLayout>
