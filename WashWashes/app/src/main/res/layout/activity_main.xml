@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -43,42 +42,49 @@
 <!--        android:scaleType="fitCenter"-->
 <!--        android:layout_marginLeft="3dp"-->
 <!--        app:srcCompat="@drawable/block59" />-->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/block55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/block_55"
-        android:textSize="40dp"
-        android:paddingLeft="60sp"
-        android:paddingRight="60sp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
         android:layout_marginBottom="50dp"
-        android:background="@drawable/button55"/>
+        android:background="@drawable/button55"
+        android:paddingLeft="60sp"
+        android:paddingTop="20dp"
+        android:paddingRight="60sp"
+        android:paddingBottom="20dp"
+        android:text="@string/block_55"
+        android:textColor="@color/white"
+        android:scaleType="centerInside"
+        android:textSize="40sp" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/block57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/block_57"
-        android:textSize="40dp"
-        android:paddingLeft="60sp"
-        android:paddingRight="60sp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
         android:layout_marginBottom="50dp"
-        android:background="@drawable/button57"/>
+        android:background="@drawable/button57"
+        android:paddingLeft="60sp"
+        android:paddingTop="20dp"
+        android:paddingRight="60sp"
+        android:paddingBottom="20dp"
+        android:text="@string/block_57"
+        android:textColor="@color/white"
+        android:scaleType="centerInside"
+        android:textSize="40sp" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/block59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/block_59"
-        android:textSize="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button59"
         android:paddingLeft="60sp"
-        android:paddingRight="60sp"
         android:paddingTop="20dp"
+        android:paddingRight="60sp"
         android:paddingBottom="20dp"
-        android:background="@drawable/button59"/>
+        android:text="@string/block_59"
+        android:textColor="@color/white"
+        android:scaleType="centerInside"
+        android:textSize="40sp" />
 
 </LinearLayout>

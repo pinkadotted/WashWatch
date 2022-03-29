@@ -9,6 +9,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Washer extends AppCompatActivity {
 
+    // to ensure that the app goes to MainActivity when the android back button is pressed
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        finish();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,10 +32,10 @@ public class Washer extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), Dryer.class));
                         overridePendingTransition(0,0);
                         return true;
-                    case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
+//                    case R.id.home:
+//                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//                        overridePendingTransition(0,0);
+//                        return true;
                     case R.id.washer:
                         return true;
                 }

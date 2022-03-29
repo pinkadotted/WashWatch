@@ -2,27 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".Washer">
+    tools:context=".Washer"
+    android:id="@+id/rl">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bottom_navigation"
         app:menu="@menu/bottom_nav_menu"
-        app:itemBackground="@color/colorPrimary"
+        app:itemBackground="@color/purple_500"
+        android:background="@color/purple_500"
+
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -34,7 +39,8 @@
                 android:layout_marginBottom="5dp"
                 android:columnCount="2"
                 android:columnOrderPreserved="false"
-                android:rowCount="10">
+                android:rowCount="10"
+                android:id="@+id/lr">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/dryer1"
@@ -44,6 +50,28 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+
+
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -66,6 +94,7 @@
                             android:text="@string/dryer1"
                             android:textSize="18sp"
                             android:textStyle="bold" />
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -105,6 +134,26 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -171,6 +220,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -227,6 +295,25 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -293,6 +380,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -349,6 +455,25 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -415,6 +540,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -471,6 +615,25 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -537,6 +700,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_9"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -593,6 +775,25 @@
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_10"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -660,6 +861,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_11"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -717,6 +937,25 @@
                     android:layout_marginBottom="50dp"
                     app:cardCornerRadius="15dp"
                     app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"/>
+
+                    <ImageButton
+                        android:id="@+id/report_dryer_12"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="105dp"
+                        android:padding="0dp"
+                        android:src="@mipmap/three_dots"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:background="@color/white" />
 
                     <LinearLayout
                         android:layout_width="match_parent"

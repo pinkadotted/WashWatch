@@ -4,19 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.norman_lee.myapplication.Washer">
 
-    <item
-        android:id="@+id/home"
-        android:icon="@drawable/ic_machine"
-        android:title="@string/home" />
+<!--    <item-->
+<!--        android:id="@+id/home"-->
+<!--        android:icon="@drawable/ic_machine"-->
+<!--        android:title="@string/home" />-->
 
     <item
         android:id="@+id/washer"
         android:icon="@drawable/ic_machine"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
         android:title="@string/washer" />
 
     <item
         android:id="@+id/dryer"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_machine"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
         android:title="@string/dryer" />
 
 </menu>
