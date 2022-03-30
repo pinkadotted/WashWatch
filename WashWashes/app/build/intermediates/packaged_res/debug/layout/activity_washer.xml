@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/bottom_navigation"
         app:menu="@menu/bottom_nav_menu"
-        app:itemBackground="@color/colorPrimary"
+        app:itemBackground="@color/purple_500"
+        android:background="@color/purple_500"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
         android:layout_alignParentBottom="true"/>

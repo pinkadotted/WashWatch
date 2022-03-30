@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
 MERGED from [io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/865c43de96d7d8501e53b62b39c608a7/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
@@ -46,25 +46,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Ivan_Feng_Jun_Kai/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/20a77500c40a5822963f146e4e0dcbee/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b903825c63442181320fef7f3f3d8d48/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/e314333476548a67e9d8fceb5d95345c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:1-33:12
 		INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:5:5-29:19
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/865c43de96d7d8501e53b62b39c608a7/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -85,6 +85,8 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Ivan_Feng_Jun_Kai/.g
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:8:9-41
+	android:noHistory
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:13:9-33
 	android:roundIcon
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
@@ -94,37 +96,37 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Ivan_Feng_Jun_Kai/.g
 	android:theme
 		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:11:9-47
 activity#com.example.washwash1.MainActivity
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:12:9-20:20
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:exported
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.washwash1.Washer
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:21:9-24:46
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:23:9-26:46
 	android:parentActivityName
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:23:13-55
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:25:13-55
 	android:label
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:24:13-43
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:22:13-35
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:24:13-35
 activity#com.example.washwash1.Dryer
-ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:25:9-28:54
+ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:27:9-30:54
 	android:parentActivityName
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:27:13-55
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:29:13-55
 	android:label
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:28:13-42
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:30:13-42
 	android:name
-		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:26:13-34
+		ADDED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:28:13-34
 uses-sdk
 INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
