@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7b1ece42d298f005ae3f5900fe7bb9c3\\transformed\\appcompat-1.4.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\cca9e1846deb679392c0ecf7a210398c\\transformed\\core-1.7.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\e6e3502c1253fa0c0033fb0f7206469c\\transformed\\core-1.7.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -15,6 +15,7 @@
     <string name="block_55">Block 55</string>
     <string name="block_57">Block 57</string>
     <string name="block_59">Block 59</string>
+    <string name="default_web_client_id" translatable="false">277763760534-2ne3arjk2t1nu93gk1h7i6f2k74b76e5.apps.googleusercontent.com</string>
     <string name="dryer">Dryers</string>
     <string name="dryer1">Dryer 1</string>
     <string name="dryer10">Dryer 10</string>
@@ -40,8 +41,14 @@
     <string name="dryer_t7">24min</string>
     <string name="dryer_t8">23min</string>
     <string name="dryer_t9">22min</string>
+    <string name="gcm_defaultSenderId" translatable="false">277763760534</string>
+    <string name="google_api_key" translatable="false">AIzaSyBDfeJZskoQKU59eju0hmCFhZvyzL8bprg</string>
+    <string name="google_app_id" translatable="false">1:277763760534:android:da08fd2eb60c296d3b3db7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBDfeJZskoQKU59eju0hmCFhZvyzL8bprg</string>
+    <string name="google_storage_bucket" translatable="false">washwatch-a725a.appspot.com</string>
     <string name="home">Home</string>
     <string name="main_activity_name">Convert Currency</string>
+    <string name="project_id" translatable="false">washwatch-a725a</string>
     <string name="set_exchange_rate">Set Exchange Rate</string>
     <string name="title_activity_nav_bar">NavBar</string>
     <string name="title_notifications">Notifications</string>

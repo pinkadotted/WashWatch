@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\98adaadbc10c6e423f28361b3701ef9a\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7ea3d65e1f0aa7d5d3ad68e8e97d3d61\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7b1ece42d298f005ae3f5900fe7bb9c3\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

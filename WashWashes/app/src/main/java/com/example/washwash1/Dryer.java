@@ -20,9 +20,15 @@ import android.widget.PopupMenu;
 import android.widget.PopupWindow;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;
 
@@ -32,6 +38,13 @@ public class Dryer extends AppCompatActivity {
     private AlertDialog dialog;
     private EditText reporter_name, reporter_hp, fault_description;
     private Button cancel_report, save_report;
+
+//    DatabaseReference mRootDatabaseRef;
+//    DatabaseReference mNodeRef;
+
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
+    private TextView retrieveTV;
 
     // creating 12 report_buttons
     ImageButton report_dryer_1, report_dryer_2, report_dryer_3, report_dryer_4, report_dryer_5, report_dryer_6, report_dryer_7, report_dryer_8, report_dryer_9, report_dryer_10, report_dryer_11, report_dryer_12;
@@ -47,6 +60,13 @@ public class Dryer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dryer);
+
+        firebaseDatabase = FirebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference("dryer1");
+        retrieveTV = findViewById(R.id.dryer1timing);
+        getData();
+        //databaseReference.setValue("99 mins");
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.dryer);
 
@@ -159,6 +179,23 @@ public class Dryer extends AppCompatActivity {
         });
     }
 
+    private void getData(){
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String value = snapshot.getValue(String.class);
+                retrieveTV.setText(value);
+                //toast line for debug purposes
+                Toast.makeText(Dryer.this, "onDataChange was called!", Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(Dryer.this, "Fail to get data.", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 
     // start of method for creating popup form
     public void createNewReport() {

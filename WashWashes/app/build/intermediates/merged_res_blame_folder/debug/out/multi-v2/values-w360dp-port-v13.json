@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\98adaadbc10c6e423f28361b3701ef9a\\transformed\\material-1.5.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7ea3d65e1f0aa7d5d3ad68e8e97d3d61\\transformed\\material-1.5.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

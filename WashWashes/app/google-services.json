@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "277763760534",
+    "project_id": "washwatch-a725a",
+    "storage_bucket": "washwatch-a725a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277763760534:android:da08fd2eb60c296d3b3db7",
+        "android_client_info": {
+          "package_name": "com.example.washwash1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277763760534-pegi5u4spj20vums0kt1asep0plq41d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.washwash1",
+            "certificate_hash": "89ba88af51acb20a16c995d7c2c7fcd4ea85ada4"
+          }
+        },
+        {
+          "client_id": "277763760534-2ne3arjk2t1nu93gk1h7i6f2k74b76e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDfeJZskoQKU59eju0hmCFhZvyzL8bprg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277763760534-2ne3arjk2t1nu93gk1h7i6f2k74b76e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: io.realm:realm-android-library-object-server:10.10.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7cf06e38a00c7c983a682fb51e45a810/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library-object-server/10.10.1/5f7ebbfd854f08fe3dffbd416b7e325fb7046f65/realm-android-library-object-server-10.10.1-javadoc.jar!/" />

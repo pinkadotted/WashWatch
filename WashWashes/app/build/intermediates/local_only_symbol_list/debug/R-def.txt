@@ -38,6 +38,7 @@ id dryer1
 id dryer10
 id dryer11
 id dryer12
+id dryer1timing
 id dryer2
 id dryer3
 id dryer4
@@ -97,6 +98,7 @@ string app_name
 string block_55
 string block_57
 string block_59
+string default_web_client_id
 string dryer
 string dryer1
 string dryer10
@@ -122,8 +124,14 @@ string dryer_t6
 string dryer_t7
 string dryer_t8
 string dryer_t9
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string home
 string main_activity_name
+string project_id
 string set_exchange_rate
 string title_activity_nav_bar
 string title_notifications

@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_button59.xml.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\button59.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dryer.xml.flat",
@@ -108,16 +108,16 @@
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\ic_machine.xml"
     },
     {
+        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_three_dots.png.flat",
+        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xxhdpi\\three_dots.png"
+    },
+    {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_report_button.png.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-hdpi\\report_button.png"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_report_button.png.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-mdpi\\report_button.png"
-    },
-    {
-        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_three_dots.png.flat",
-        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xxhdpi\\three_dots.png"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_block57.png.flat",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xhdpi\\report_button.png"
     },
     {
-        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_three_dots.png.flat",
-        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xhdpi\\three_dots.png"
-    },
-    {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_three_dots.png.flat",
+        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xhdpi\\three_dots.png"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\layout_relativelayout_custom_create.xml.flat",
@@ -148,24 +148,24 @@
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\block55.png"
     },
     {
-        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_report_button.png.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xxxhdpi\\report_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_selector.xml.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\selector.xml"
     },
     {
-        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
