@@ -1,10 +1,14 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7ea3d65e1f0aa7d5d3ad68e8e97d3d61\\transformed\\material-1.5.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+=======
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+>>>>>>> a013c56 (Trying to connect Mongodb)
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

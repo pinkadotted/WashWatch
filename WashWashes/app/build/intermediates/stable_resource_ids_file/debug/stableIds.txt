@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 com.example.washwash1:xml/standalone_badge_gravity_top_start = 0x7f120003
@@ -106,6 +107,8 @@ com.example.washwash1:style/Theme.Design.NoActionBar = 0x7f1001f7
 com.example.washwash1:styleable/AppCompatTextHelper = 0x7f110010
 =======
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:xml/standalone_badge_gravity_bottom_end = 0x7f120001
 com.example.washwash1:styleable/include = 0x7f110094
 com.example.washwash1:styleable/ViewBackgroundHelper = 0x7f110090
@@ -242,12 +245,12 @@ com.example.washwash1:style/Widget.MaterialComponents.AppBarLayout.PrimarySurfac
 com.example.washwash1:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f100384
 com.example.washwash1:style/Widget.Material3.Tooltip = 0x7f100381
 com.example.washwash1:style/Widget.Material3.Toolbar.Surface = 0x7f100380
->>>>>>> 6714f03 (testing)
 com.example.washwash1:style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu = 0x7f10037d
 com.example.washwash1:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f10037c
 com.example.washwash1:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense = 0x7f10037b
 com.example.washwash1:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f10037a
 com.example.washwash1:style/Widget.Material3.TextInputLayout.FilledBox.Dense = 0x7f100377
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:style/Widget.Material3.TextInputEditText.FilledBox.Dense = 0x7f100373
 com.example.washwash1:style/Widget.Material3.TextInputEditText.FilledBox = 0x7f100372
@@ -460,6 +463,8 @@ com.example.washwash1:style/Theme.Material3.Dark.NoActionBar = 0x7f1001fe
 com.example.washwash1:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f100386
 com.example.washwash1:style/Theme.Material3.Dark.DialogWhenLarge = 0x7f1001fd
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:style/Widget.Material3.TextInputLayout.FilledBox = 0x7f100376
 com.example.washwash1:style/Widget.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f100375
 com.example.washwash1:style/Widget.Material3.TextInputEditText.FilledBox.Dense = 0x7f100373
@@ -658,7 +663,6 @@ com.example.washwash1:style/Theme.Material3.DayNight.Dialog = 0x7f100201
 com.example.washwash1:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f100200
 com.example.washwash1:style/Theme.Material3.DayNight = 0x7f1001ff
 com.example.washwash1:style/Theme.Material3.Dark.NoActionBar = 0x7f1001fe
->>>>>>> 6714f03 (testing)
 com.example.washwash1:style/Theme.Material3.Dark.Dialog.MinWidth = 0x7f1001fc
 com.example.washwash1:style/Theme.Material3.Dark.Dialog.Alert = 0x7f1001fb
 com.example.washwash1:style/Theme.Material3.Dark.Dialog = 0x7f1001fa
@@ -667,6 +671,7 @@ com.example.washwash1:style/Theme.Material3.Dark = 0x7f1001f8
 com.example.washwash1:style/Theme.Design.NoActionBar = 0x7f1001f7
 com.example.washwash1:style/Theme.Design.Light.NoActionBar = 0x7f1001f6
 com.example.washwash1:style/Theme.Design.Light.BottomSheetDialog = 0x7f1001f5
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:style/Theme.Design.Light = 0x7f1001f4
 com.example.washwash1:xml/standalone_badge_gravity_bottom_end = 0x7f120001
@@ -892,6 +897,8 @@ com.example.washwash1:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title
 com.example.washwash1:id/icon_only = 0x7f0800ea
 com.example.washwash1:style/TextAppearance.Design.Snackbar.Message = 0x7f1001b3
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:style/Theme.Design.BottomSheetDialog = 0x7f1001f3
 com.example.washwash1:style/Theme.Design = 0x7f1001f2
 com.example.washwash1:style/Theme.AppCompat.Light.Dialog.MinWidth = 0x7f1001ee
@@ -1074,7 +1081,6 @@ com.example.washwash1:style/Widget.MaterialComponents.ShapeableImageView = 0x7f1
 com.example.washwash1:style/Base.Widget.AppCompat.PopupWindow = 0x7f1000e5
 com.example.washwash1:style/MaterialAlertDialog.Material3.Title.Icon = 0x7f10011c
 com.example.washwash1:style/Base.Widget.AppCompat.PopupMenu = 0x7f1000e3
->>>>>>> 6714f03 (testing)
 com.example.washwash1:style/Base.Widget.AppCompat.ListView.DropDown = 0x7f1000e1
 <<<<<<< HEAD
 com.example.washwash1:style/Widget.Material3.Chip.Filter.Elevated = 0x7f10031e
@@ -1097,6 +1103,7 @@ com.example.washwash1:style/Base.Widget.AppCompat.ListView = 0x7f1000e0
 com.example.washwash1:style/Base.Widget.AppCompat.ListPopupWindow = 0x7f1000df
 com.example.washwash1:style/Base.Widget.AppCompat.ListMenuView = 0x7f1000de
 com.example.washwash1:style/Base.Widget.AppCompat.Light.PopupMenu = 0x7f1000dc
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:style/Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f1000da
 com.example.washwash1:style/Base.Widget.AppCompat.Light.ActionBar.TabText = 0x7f1000d9
@@ -1997,6 +2004,8 @@ com.example.washwash1:style/Widget.AppCompat.Light.ActionBar.Solid.Inverse = 0x7
 com.example.washwash1:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f100071
 com.example.washwash1:style/TextAppearance.AppCompat.Tooltip = 0x7f100192
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:style/Base.Widget.AppCompat.Light.ActionBar.TabText = 0x7f1000d9
 com.example.washwash1:style/Base.Widget.AppCompat.Light.ActionBar.TabBar = 0x7f1000d8
 com.example.washwash1:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1000d2
@@ -2297,7 +2306,6 @@ com.example.washwash1:layout/text_view_with_line_height_from_style = 0x7f0b0075
 com.example.washwash1:layout/text_view_with_line_height_from_appearance = 0x7f0b0073
 com.example.washwash1:layout/test_toolbar_custom_background = 0x7f0b0070
 com.example.washwash1:layout/test_toolbar = 0x7f0b006f
->>>>>>> 6714f03 (testing)
 com.example.washwash1:layout/test_design_checkbox = 0x7f0b006b
 com.example.washwash1:string/material_timepicker_minute = 0x7f0f008c
 com.example.washwash1:layout/test_chip_zero_corner_radius = 0x7f0b006a
@@ -2308,6 +2316,7 @@ com.example.washwash1:style/Theme.Material3.Dark.Dialog.Alert = 0x7f1001fb
 com.example.washwash1:layout/abc_screen_toolbar = 0x7f0b0017
 com.example.washwash1:id/FUNCTION = 0x7f080004
 com.example.washwash1:layout/support_simple_spinner_dropdown_item = 0x7f0b0068
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:dimen/m3_sys_elevation_level4 = 0x7f060112
 com.example.washwash1:attr/backgroundInsetTop = 0x7f030045
@@ -3679,6 +3688,8 @@ com.example.washwash1:dimen/abc_config_prefDialogWidth = 0x7f060017
 com.example.washwash1:dimen/abc_button_inset_vertical_material = 0x7f060013
 com.example.washwash1:dimen/abc_action_button_min_width_material = 0x7f06000e
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:layout/select_dialog_singlechoice_material = 0x7f0b0067
 com.example.washwash1:layout/select_dialog_item_material = 0x7f0b0065
 com.example.washwash1:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f1003c5
@@ -4935,16 +4946,19 @@ com.example.washwash1:dimen/abc_alert_dialog_button_dimen = 0x7f060011
 com.example.washwash1:color/material_on_surface_emphasis_high_type = 0x7f0501f3
 com.example.washwash1:dimen/abc_alert_dialog_button_bar_height = 0x7f060010
 com.example.washwash1:color/m3_sys_color_dynamic_light_tertiary = 0x7f05016c
->>>>>>> 6714f03 (testing)
 com.example.washwash1:dimen/abc_action_button_min_height_material = 0x7f06000d
+<<<<<<< HEAD
 com.example.washwash1:attr/contentPaddingBottom = 0x7f030113
 com.example.washwash1:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f100186
 com.example.washwash1:color/design_default_color_primary_variant = 0x7f050055
 com.example.washwash1:attr/chipBackgroundColor = 0x7f0300a4
 com.example.washwash1:id/report_dryer_5 = 0x7f080174
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:dimen/abc_action_bar_subtitle_top_margin_material = 0x7f06000c
 com.example.washwash1:attr/motionStagger = 0x7f0302db
 com.example.washwash1:dimen/abc_action_bar_stacked_tab_max_width = 0x7f06000a
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:drawable/notification_bg_normal_pressed = 0x7f0700b4
 com.example.washwash1:layout/abc_popup_menu_item_layout = 0x7f0b0013
@@ -4964,6 +4978,8 @@ com.example.washwash1:dimen/abc_action_bar_overflow_padding_start_material = 0x7
 com.example.washwash1:color/m3_ref_palette_dynamic_neutral70 = 0x7f050099
 com.example.washwash1:dimen/abc_action_bar_default_padding_start_material = 0x7f060004
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:dimen/abc_action_bar_overflow_padding_end_material = 0x7f060007
 com.example.washwash1:dimen/abc_action_bar_icon_vertical_padding_material = 0x7f060006
 com.example.washwash1:attr/backgroundOverlayColorAlpha = 0x7f030046
@@ -4973,6 +4989,7 @@ com.example.washwash1:dimen/abc_action_bar_default_padding_start_material = 0x7f
 com.example.washwash1:color/m3_sys_color_dynamic_dark_surface = 0x7f050154
 com.example.washwash1:attr/titleTextColor = 0x7f030407
 com.example.washwash1:dimen/mtrl_extended_fab_end_padding = 0x7f0601c6
+<<<<<<< HEAD
 >>>>>>> 6714f03 (testing)
 >>>>>>> ebf2256 (resolving conflict)
 com.example.washwash1:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
@@ -5030,6 +5047,10 @@ com.example.washwash1:color/primary_text_default_material_dark = 0x7f05023a
 com.example.washwash1:color/abc_hint_foreground_material_dark = 0x7f050007
 com.example.washwash1:color/primary_dark_material_dark = 0x7f050236
 =======
+=======
+com.example.washwash1:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
+com.example.washwash1:color/white = 0x7f050255
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:id/fill_horizontal = 0x7f0800cc
 com.example.washwash1:color/teal_700 = 0x7f05024f
 com.example.washwash1:id/scrollIndicatorDown = 0x7f080185
@@ -5052,10 +5073,9 @@ com.example.washwash1:dimen/mtrl_bottomappbar_fabOffsetEndMode = 0x7f06016d
 com.example.washwash1:dimen/m3_chip_hovered_translation_z = 0x7f0600e4
 com.example.washwash1:color/primary_material_dark = 0x7f050238
 com.example.washwash1:color/primary_dark_material_light = 0x7f050237
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/notification_icon_bg_color = 0x7f050235
-com.example.washwash1:color/mtrl_textinput_hovered_box_stroke_color = 0x7f050233
 com.example.washwash1:color/notification_action_color_filter = 0x7f050234
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:color/mtrl_textinput_focused_box_stroke_color = 0x7f050232
 com.example.washwash1:color/mtrl_textinput_filled_box_default_background_color = 0x7f050231
@@ -5079,6 +5099,8 @@ com.example.washwash1:id/zero_corner_chip = 0x7f080216
 =======
 com.example.washwash1:color/mtrl_navigation_item_background_color = 0x7f050220
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:color/mtrl_textinput_filled_box_default_background_color = 0x7f050231
 com.example.washwash1:color/m3_ref_palette_dynamic_primary95 = 0x7f0500b6
 com.example.washwash1:id/report_dryer_4 = 0x7f08016e
@@ -5106,13 +5128,9 @@ com.example.washwash1:dimen/mtrl_snackbar_action_text_color_alpha = 0x7f06020c
 com.example.washwash1:dimen/material_clock_hand_padding = 0x7f06013f
 com.example.washwash1:dimen/mtrl_calendar_year_corner = 0x7f0601b0
 com.example.washwash1:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f10013d
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/mtrl_navigation_bar_colored_ripple_color = 0x7f05021d
-com.example.washwash1:color/mtrl_navigation_bar_colored_item_tint = 0x7f05021c
-com.example.washwash1:style/Widget.MaterialComponents.BottomNavigationView.Colored = 0x7f100392
-com.example.washwash1:dimen/abc_search_view_preferred_height = 0x7f060036
-com.example.washwash1:style/ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f100245
 com.example.washwash1:color/mtrl_indicator_text_color = 0x7f05021b
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:color/mtrl_choice_chip_background_color = 0x7f050211
 com.example.washwash1:id/zero_corner_chip = 0x7f080210
@@ -5165,6 +5183,8 @@ com.example.washwash1:color/mtrl_btn_bg_color_selector = 0x7f05020c
 =======
 com.example.washwash1:color/mtrl_btn_text_btn_bg_color_selector = 0x7f050204
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:id/beginning = 0x7f08005b
 com.example.washwash1:color/mtrl_filled_stroke_color = 0x7f05021a
 com.example.washwash1:attr/expandActivityOverflowButtonDrawable = 0x7f03017b
@@ -5188,9 +5208,11 @@ com.example.washwash1:id/accessibility_custom_action_7 = 0x7f08002d
 com.example.washwash1:attr/alpha = 0x7f03002c
 com.example.washwash1:color/mtrl_btn_text_btn_bg_color_selector = 0x7f050204
 com.example.washwash1:id/fixed = 0x7f0800d0
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/mtrl_btn_stroke_color_selector = 0x7f050203
+com.example.washwash1:style/Theme.Material3.DayNight.Dialog.Alert = 0x7f100202
+com.example.washwash1:attr/materialCalendarDayOfWeekLabel = 0x7f03028b
 com.example.washwash1:color/mtrl_btn_ripple_color = 0x7f050202
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.washwash1:color/mtrl_btn_bg_color_selector = 0x7f050201
 com.example.washwash1:color/material_on_surface_emphasis_high_type = 0x7f0501f3
@@ -5229,6 +5251,8 @@ com.example.washwash1:color/material_dynamic_secondary60 = 0x7f0501dd
 com.example.washwash1:style/Widget.Material3.MaterialCalendar.HeaderCancelButton = 0x7f10034b
 =======
 =======
+=======
+>>>>>>> a013c56 (Trying to connect Mongodb)
 com.example.washwash1:color/material_timepicker_button_stroke = 0x7f0501fd
 com.example.washwash1:id/SHOW_PROGRESS = 0x7f08000a
 com.example.washwash1:color/material_slider_inactive_tick_marks_color = 0x7f0501f9
@@ -5259,16 +5283,10 @@ com.example.washwash1:color/material_grey_100 = 0x7f0501e5
 com.example.washwash1:color/m3_sys_color_dark_primary = 0x7f05013a
 com.example.washwash1:color/material_dynamic_tertiary99 = 0x7f0501e4
 com.example.washwash1:dimen/abc_text_size_button_material = 0x7f060041
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/material_dynamic_tertiary90 = 0x7f0501e2
 com.example.washwash1:color/material_dynamic_tertiary80 = 0x7f0501e1
+com.example.washwash1:attr/alertDialogButtonGroupStyle = 0x7f030027
 com.example.washwash1:color/material_dynamic_tertiary60 = 0x7f0501df
-<<<<<<< HEAD
-com.example.washwash1:string/washer12 = 0x7f0f00aa
-com.example.washwash1:color/material_dynamic_tertiary50 = 0x7f0501de
-com.example.washwash1:color/material_dynamic_tertiary10 = 0x7f0501d9
-com.example.washwash1:style/ThemeOverlay.Material3.BottomSheetDialog = 0x7f100254
-=======
 com.example.washwash1:dimen/m3_fab_translation_z_hovered_focused = 0x7f0600f0
 com.example.washwash1:style/ShapeAppearanceOverlay.Material3.TextField.Filled = 0x7f10015f
 com.example.washwash1:color/material_dynamic_tertiary30 = 0x7f0501dc
@@ -5276,14 +5294,11 @@ com.example.washwash1:color/material_dynamic_tertiary20 = 0x7f0501db
 com.example.washwash1:color/material_dynamic_tertiary100 = 0x7f0501da
 com.example.washwash1:dimen/def_drawer_elevation = 0x7f06005e
 com.example.washwash1:color/material_dynamic_tertiary10 = 0x7f0501d9
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/material_dynamic_tertiary0 = 0x7f0501d8
+com.example.washwash1:dimen/mtrl_calendar_text_input_padding_top = 0x7f0601ad
 com.example.washwash1:color/material_dynamic_secondary95 = 0x7f0501d6
 com.example.washwash1:color/material_dynamic_secondary90 = 0x7f0501d5
 com.example.washwash1:color/material_dynamic_secondary80 = 0x7f0501d4
-<<<<<<< HEAD
-com.example.washwash1:style/Widget.Material3.MaterialCalendar.HeaderCancelButton = 0x7f10034b
-=======
 com.example.washwash1:color/material_dynamic_secondary50 = 0x7f0501d1
 com.example.washwash1:string/dryer_t8 = 0x7f0f0040
 com.example.washwash1:dimen/design_snackbar_action_text_color_alpha = 0x7f060081
@@ -7612,8 +7627,8 @@ com.example.washwash1:attr/layout_constraintBottom_toTopOf = 0x7f030231
 com.example.washwash1:animator/mtrl_extended_fab_change_size_collapse_motion_spec = 0x7f020017
 com.example.washwash1:attr/actionTextColorAlpha = 0x7f030024
 com.example.washwash1:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f100266
->>>>>>> 6714f03 (testing)
 com.example.washwash1:color/material_dynamic_secondary60 = 0x7f0501d2
+<<<<<<< HEAD
 >>>>>>> ebf2256 (resolving conflict)
 com.example.washwash1:style/Base.Widget.AppCompat.PopupMenu = 0x7f1000e3
 com.example.washwash1:color/material_dynamic_secondary40 = 0x7f0501db
@@ -9770,3 +9785,59 @@ com.example.washwash1:style/Base.ThemeOverlay.MaterialComponents.MaterialAlertDi
 com.example.washwash1:dimen/abc_search_view_preferred_width = 0x7f060037
 com.example.washwash1:attr/touchAnchorId = 0x7f030418
 com.example.washwash1:attr/borderlessButtonStyle = 0x7f030064
+=======
+com.example.washwash1:attr/round = 0x7f03032f
+com.example.washwash1:attr/actionModeWebSearchDrawable = 0x7f030020
+com.example.washwash1:attr/actionBarItemBackground = 0x7f030003
+com.example.washwash1:style/Base.Widget.AppCompat.ActionBar = 0x7f1000bb
+com.example.washwash1:attr/nestedScrollable = 0x7f0302e4
+com.example.washwash1:drawable/notification_template_icon_low_bg = 0x7f0700a2
+com.example.washwash1:drawable/abc_cab_background_top_mtrl_alpha = 0x7f070018
+com.example.washwash1:attr/homeLayout = 0x7f0301db
+com.example.washwash1:dimen/m3_bottom_sheet_modal_elevation = 0x7f0600bb
+com.example.washwash1:attr/expandedHintEnabled = 0x7f03017d
+com.example.washwash1:layout/activity_dryer = 0x7f0b001c
+com.example.washwash1:style/Widget.MaterialComponents.BottomAppBar = 0x7f10038e
+com.example.washwash1:id/expanded_menu = 0x7f0800c7
+com.example.washwash1:color/abc_tint_spinner = 0x7f050017
+com.example.washwash1:anim/mtrl_card_lowers_interpolator = 0x7f01001f
+com.example.washwash1:id/dryer12 = 0x7f0800b2
+com.example.washwash1:attr/textColorAlertDialogListItem = 0x7f0303d1
+com.example.washwash1:style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f10004d
+com.example.washwash1:string/mtrl_picker_invalid_format = 0x7f0f0085
+com.example.washwash1:attr/actionBarWidgetTheme = 0x7f03000c
+com.example.washwash1:id/bounceEnd = 0x7f080065
+com.example.washwash1:drawable/mtrl_navigation_bar_item_background = 0x7f070094
+com.example.washwash1:style/Theme.AppCompat.NoActionBar = 0x7f1001f1
+com.example.washwash1:color/m3_appbar_overlay_color = 0x7f050062
+com.example.washwash1:attr/arcMode = 0x7f030034
+com.example.washwash1:color/m3_sys_color_dynamic_dark_inverse_surface = 0x7f050145
+com.example.washwash1:attr/alphabeticModifiers = 0x7f03002d
+com.example.washwash1:color/m3_ref_palette_dynamic_primary0 = 0x7f0500ab
+com.example.washwash1:dimen/design_fab_size_normal = 0x7f060074
+com.example.washwash1:attr/tickVisible = 0x7f0303f8
+com.example.washwash1:attr/layout_constraintBaseline_toBottomOf = 0x7f03022d
+com.example.washwash1:attr/constraint_referenced_tags = 0x7f030105
+com.example.washwash1:color/m3_ref_palette_primary40 = 0x7f0500fe
+com.example.washwash1:attr/counterTextColor = 0x7f03012a
+com.example.washwash1:attr/fastScrollEnabled = 0x7f030194
+com.example.washwash1:color/m3_ref_palette_neutral_variant40 = 0x7f0500f1
+com.example.washwash1:anim/btn_radio_to_on_mtrl_dot_group_animation = 0x7f010015
+com.example.washwash1:attr/actionBarDivider = 0x7f030002
+com.example.washwash1:anim/btn_checkbox_to_checked_box_outer_merged_animation = 0x7f01000d
+com.example.washwash1:attr/motionInterpolator = 0x7f0302d2
+com.example.washwash1:color/dim_foreground_material_light = 0x7f05005b
+com.example.washwash1:attr/startIconContentDescription = 0x7f030364
+com.example.washwash1:attr/layout_collapseMode = 0x7f030227
+com.example.washwash1:attr/dialogPreferredPadding = 0x7f030143
+com.example.washwash1:attr/layout_anchor = 0x7f030224
+com.example.washwash1:color/abc_hint_foreground_material_dark = 0x7f050007
+com.example.washwash1:color/m3_ref_palette_error50 = 0x7f0500d8
+com.example.washwash1:animator/design_appbar_state_list_animator = 0x7f020000
+com.example.washwash1:styleable/GradientColorItem = 0x7f11003c
+com.example.washwash1:attr/headerLayout = 0x7f0301cc
+com.example.washwash1:animator/linear_indeterminate_line1_head_interpolator = 0x7f020009
+com.example.washwash1:color/m3_primary_text_disable_only = 0x7f05008f
+com.example.washwash1:anim/design_bottom_sheet_slide_out = 0x7f010019
+com.example.washwash1:bool/m3_sys_typescale_title_small_text_all_caps = 0x7f040010
+>>>>>>> a013c56 (Trying to connect Mongodb)
