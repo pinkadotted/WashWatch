@@ -68,11 +68,13 @@ id reporter_hp
 id reporter_name
 id rl
 id save_report
+id textViewOfFireBase
 id washer
 id washer1
 id washer10
 id washer11
 id washer12
+id washer1_time_left
 id washer2
 id washer3
 id washer4
@@ -124,6 +126,7 @@ string dryer_t6
 string dryer_t7
 string dryer_t8
 string dryer_t9
+string firebase_data
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

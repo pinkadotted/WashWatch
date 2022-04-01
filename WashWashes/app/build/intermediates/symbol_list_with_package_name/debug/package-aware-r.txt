@@ -3037,6 +3037,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewOfFireBase
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3080,6 +3081,7 @@ id washer1
 id washer10
 id washer11
 id washer12
+id washer1_time_left
 id washer2
 id washer3
 id washer4
@@ -3375,6 +3377,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_data
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
