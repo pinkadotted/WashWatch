@@ -4,11 +4,7 @@
             "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
-=======
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7b1ece42d298f005ae3f5900fe7bb9c3/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",
->>>>>>> a013c56 (Trying to connect Mongodb)
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/30b115e0f9932d90004f7b5a0bd12bb2/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

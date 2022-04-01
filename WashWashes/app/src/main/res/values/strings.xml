@@ -62,5 +62,6 @@
     <string name="dryer_t10">21min</string>
     <string name="dryer_t11">20min</string>
     <string name="dryer_t12">19min</string>
+    <string name="firebase_data">Firebase Data</string>
 
 </resources>

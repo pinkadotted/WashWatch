@@ -4,10 +4,7 @@
             "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\7ea3d65e1f0aa7d5d3ad68e8e97d3d61\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-=======
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7b1ece42d298f005ae3f5900fe7bb9c3/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/30b115e0f9932d90004f7b5a0bd12bb2/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -17,8 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/98adaadbc10c6e423f28361b3701ef9a/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
->>>>>>> a013c56 (Trying to connect Mongodb)
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7ea3d65e1f0aa7d5d3ad68e8e97d3d61/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,16 +30,6 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,20,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1224,1283,1346,1518"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

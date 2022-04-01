@@ -4,10 +4,7 @@
             "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
-=======
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/cca9e1846deb679392c0ecf7a210398c/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/e6e3502c1253fa0c0033fb0f7206469c/transformed/core-1.7.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -17,8 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/7b1ece42d298f005ae3f5900fe7bb9c3/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
->>>>>>> a013c56 (Trying to connect Mongodb)
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/30b115e0f9932d90004f7b5a0bd12bb2/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,19 +31,6 @@
                         "endColumns": "12",
                         "endOffsets": "289"
                     }
-<<<<<<< HEAD
-                },
-                {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\e6e3502c1253fa0c0033fb0f7206469c\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-=======
->>>>>>> a013c56 (Trying to connect Mongodb)
                 }
             ]
         }

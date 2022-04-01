@@ -62,7 +62,7 @@ public class Dryer extends AppCompatActivity {
         setContentView(R.layout.activity_dryer);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("dryer1");
+        databaseReference = firebaseDatabase.getReference().child("dryer1");
         retrieveTV = findViewById(R.id.dryer1timing);
         getData();
         //databaseReference.setValue("99 mins");
@@ -183,8 +183,8 @@ public class Dryer extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String value = snapshot.getValue(String.class);
-                retrieveTV.setText(value);
+                Long value = snapshot.getValue(Long.class);
+                retrieveTV.setText(value.toString() + "min");
                 //toast line for debug purposes
                 Toast.makeText(Dryer.this, "onDataChange was called!", Toast.LENGTH_SHORT).show();
 

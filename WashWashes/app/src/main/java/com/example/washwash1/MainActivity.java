@@ -37,13 +37,10 @@ public class MainActivity extends AppCompatActivity {
         pressedTime = System.currentTimeMillis();
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Realm.init(this);
         setContentView(R.layout.activity_main);
-
         Button block55 = findViewById(R.id.block55);
         Button block57 = findViewById(R.id.block57);
         Button block59 = findViewById(R.id.block59);
