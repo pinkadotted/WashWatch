@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
 import time
-import pymongo
-import dns
+import firebase_admin
+from firebase_admin import db
+import json
 
 class vibration:
     def __init__(self, channel, threshold = 10) -> None:
@@ -32,15 +33,10 @@ class vibration:
                         # force machine state to end
                         new_data["in_use"] = False
                 #else: machine not in use + vibration > threshold
-        new_doc = { "$set": new_data }
-        query = {'washer_id': '57_w1'}
-        collection.update_one(query, new_doc)
+        ref.update(new_data)
 
 if __name__ == '__main__':
-    client = pymongo.MongoClient(
-    "mongodb+srv://washwatcher:washwatcheradmin@cluster0.vapic.mongodb.net/?retryWrites=true&w=majority")
 
-    collection = client["blk_57"]["washer_1"]
 
     #GPIO SETUP
     channel = 17
@@ -49,10 +45,16 @@ if __name__ == '__main__':
 
     vibrator = vibration(17)
 
+    cred_obj = firebase_admin.credentials.Certificate('washwatch-a725a-firebase-adminsdk-99ewg-ec79c6d04f.json')
+    default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL':"https://washwatch-a725a-default-rtdb.firebaseio.com/"
+	})
+    ref = db.reference("/")
+
     # let us know when the pin goes HIGH or LOW
     GPIO.add_event_detect(channel, GPIO.BOTH, bouncetime=300) 
     # assign function to GPIO PIN, Run function on change
-    GPIO.add_event_callback(collection, vibrator.callback) 
+    GPIO.add_event_callback(ref.get(), vibrator.callback) 
 
     while True:
         time.sleep(1)

@@ -7,7 +7,6 @@ cred_obj = firebase_admin.credentials.Certificate('washwatch-a725a-firebase-admi
 default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"https://washwatch-a725a-default-rtdb.firebaseio.com/"
 	})
-
 ref = db.reference("/")
 print(ref.get())
 
