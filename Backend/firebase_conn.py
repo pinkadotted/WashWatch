@@ -1,5 +1,6 @@
 import firebase_admin
 from firebase_admin import db
+from datetime import datetime, timedelta
 
 
 
@@ -11,10 +12,17 @@ ref = db.reference("/")
 print(ref.get())
 
 new_data = {
-    'washer_id': '57_w1', 
-    'in_use': True,
-    'time_start': '0', 
-    'time_left': 15, # do we need this? 
-    'default_time_end': '', # 37 mins + time_start
-    'overrun': False # if the machine is still running past the default end time
-    }
+            'washer_id': '57_w1', 
+            'in_use': True,
+            'time_start': str(datetime.now()),
+            'default_time_end': str(datetime.now() + timedelta(minutes=37)), # 37 mins + time_start
+            'overrun': False # if the machine is still running past the default end time
+            }
+
+# new_data = {
+#             'time_start': str(datetime.now()),
+#             'default_time_end': str(datetime.now() + timedelta(minutes=37)), # 37 mins + time_start
+#             'overrun': False # if the machine is still running past the default end time
+#             }
+
+# ref.update(new_data)
