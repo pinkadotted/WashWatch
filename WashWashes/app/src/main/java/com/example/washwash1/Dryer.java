@@ -2,12 +2,13 @@ package com.example.washwash1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-// import android.widget.ImageButton;
-// import android.widget.PopupMenu;
+import android.widget.ImageButton;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,13 +21,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-// import com.google.firebase.database.DataSnapshot;
-// import com.google.firebase.database.DatabaseError;
-// import com.google.firebase.database.DatabaseReference;
-// import com.google.firebase.database.FirebaseDatabase;
-// import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-// import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class Dryer extends AppCompatActivity {
 
@@ -41,9 +42,6 @@ public class Dryer extends AppCompatActivity {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     private TextView retrieveTV;
-
-    // creating 12 report_buttons
-//    ImageButton report_dryer_1, report_dryer_2, report_dryer_3, report_dryer_4, report_dryer_5, report_dryer_6, report_dryer_7, report_dryer_8, report_dryer_9, report_dryer_10, report_dryer_11, report_dryer_12;
 
     RecyclerView recyclerView;
 
@@ -100,97 +98,6 @@ public class Dryer extends AppCompatActivity {
 //        getData();
 //        databaseReference.setValue("99 mins");
 
-//        ArrayList<ImageButton> report_dryer_buttons_list = new ArrayList();
-//        report_dryer_buttons_list.add(report_dryer_1);
-
-        // create some kind of for loop to simplify the instantiation below
-//        report_dryer_1 = findViewById(R.id.report_dryer_1);
-//        report_dryer_2 = findViewById(R.id.report_dryer_2);
-//        report_dryer_3 = findViewById(R.id.report_dryer_3);
-//        report_dryer_4 = findViewById(R.id.report_dryer_4);
-//        report_dryer_5 = findViewById(R.id.report_dryer_5);
-//        report_dryer_6 = findViewById(R.id.report_dryer_6);
-//        report_dryer_7 = findViewById(R.id.report_dryer_7);
-//        report_dryer_8 = findViewById(R.id.report_dryer_8);
-//        report_dryer_9 = findViewById(R.id.report_dryer_9);
-//        report_dryer_10 = findViewById(R.id.report_dryer_10);
-//        report_dryer_11 = findViewById(R.id.report_dryer_11);
-//        report_dryer_12 = findViewById(R.id.report_dryer_12);
-
-
-        // only created 4 so far
-//        report_dryer_1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                PopupMenu popupMenu = new PopupMenu(Dryer.this, report_dryer_1);
-//
-//                popupMenu.getMenuInflater().inflate(R.menu.popup_menu_example, popupMenu.getMenu());
-//                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-//                    @Override
-//                    public boolean onMenuItemClick(MenuItem menuItem) {
-//                        // display a textbox asking for a description of the fault in the machine
-//                        createNewReport();
-//                        return true;
-//                    }
-//                });
-//                popupMenu.show();
-//            }
-//        });
-
-//        report_dryer_2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                PopupMenu popupMenu = new PopupMenu(Dryer.this, report_dryer_2);
-//
-//                popupMenu.getMenuInflater().inflate(R.menu.popup_menu_example, popupMenu.getMenu());
-//                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-//                    @Override
-//                    public boolean onMenuItemClick(MenuItem menuItem) {
-//                        // display a textbox asking for a description of the fault in the machine
-//                        createNewReport();
-//                        return true;
-//                    }
-//                });
-//                popupMenu.show();
-//            }
-//        });
-//
-//        report_dryer_3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                PopupMenu popupMenu = new PopupMenu(Dryer.this, report_dryer_3);
-//
-//                popupMenu.getMenuInflater().inflate(R.menu.popup_menu_example, popupMenu.getMenu());
-//                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-//                    @Override
-//                    public boolean onMenuItemClick(MenuItem menuItem) {
-//                        // display a textbox asking for a description of the fault in the machine
-//                        createNewReport();
-//                        return true;
-//                    }
-//                });
-//                popupMenu.show();
-//            }
-//        });
-//
-//        report_dryer_4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                PopupMenu popupMenu = new PopupMenu(Dryer.this, report_dryer_4);
-//
-//                popupMenu.getMenuInflater().inflate(R.menu.popup_menu_example, popupMenu.getMenu());
-//                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-//                    @Override
-//                    public boolean onMenuItemClick(MenuItem menuItem) {
-//                        // display a textbox asking for a description of the fault in the machine
-//                        createNewReport();
-//                        return true;
-//                    }
-//                });
-//                popupMenu.show();
-//            }
-//        });
-
     }
 
 //    private void getData(){
@@ -216,6 +123,20 @@ public class Dryer extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            createNewReport();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     // start of method for creating popup form
@@ -248,6 +169,5 @@ public class Dryer extends AppCompatActivity {
             }
         });
     }
-    // end of method for creating popup form
 
 }
