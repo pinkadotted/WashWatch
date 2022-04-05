@@ -1,67 +1,126 @@
 <resources>
     <string name="app_name">WashWatch</string>
     <string name="action_settings">Settings</string>
-    <string name="set_exchange_rate">Set Exchange Rate</string>
-    <string name="main_activity_name">Convert Currency</string>
     <string name="home">Home</string>
     <string name="washer">Washers</string>
     <string name="dryer">Dryers</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_nav_bar">NavBar</string>
-    <string name="washer1">Washer 1</string>
-    <string name="washer2">Washer 2</string>
-    <string name="washer3">Washer 3</string>
-    <string name="washer4">Washer 4</string>
-    <string name="washer5">Washer 5</string>
-    <string name="washer6">Washer 6</string>
-    <string name="washer7">Washer 7</string>
-    <string name="washer8">Washer 8</string>
-    <string name="washer9">Washer 9</string>
-    <string name="washer10">Washer 10</string>
-    <string name="washer11">Washer 11</string>
-    <string name="washer12">Washer 12</string>
-
-    <string name="dryer1">Dryer 1</string>
-    <string name="dryer2">Dryer 2</string>
-    <string name="dryer3">Dryer 3</string>
-    <string name="dryer4">Dryer 4</string>
-    <string name="dryer5">Dryer 5</string>
-    <string name="dryer6">Dryer 6</string>
-    <string name="dryer7">Dryer 7</string>
-    <string name="dryer8">Dryer 8</string>
-    <string name="dryer9">Dryer 9</string>
-    <string name="dryer10">Dryer 10</string>
-    <string name="dryer11">Dryer 11</string>
-    <string name="dryer12">Dryer 12</string>
     <string name="block_59">Block 59</string>
     <string name="block_57">Block 57</string>
     <string name="block_55">Block 55</string>
 
-    <string name="washer_t1">45min</string>
-    <string name="washer_t2">44min</string>
-    <string name="washer_t3">43min</string>
-    <string name="washer_t4">42min</string>
-    <string name="washer_t5">41min</string>
-    <string name="washer_t6">40min</string>
-    <string name="washer_t7">39min</string>
-    <string name="washer_t8">38min</string>
-    <string name="washer_t9">37min</string>
-    <string name="washer_t10">36min</string>
-    <string name="washer_t11">35min</string>
-    <string name="washer_t12">34min</string>
+    <string-array name="washers">
+        <item>Washer 1</item>
+        <item>Washer 2</item>
+        <item>Washer 3</item>
+        <item>Washer 4</item>
+        <item>Washer 5</item>
+        <item>Washer 6</item>
+        <item>Washer 7</item>
+        <item>Washer 8</item>
+        <item>Washer 9</item>
+        <item>Washer 10</item>
+        <item>Washer 11</item>
+        <item>Washer 12</item>
+    </string-array>
 
-    <string name="dryer_t1">30min</string>
-    <string name="dryer_t2">29min</string>
-    <string name="dryer_t3">28min</string>
-    <string name="dryer_t4">27min</string>
-    <string name="dryer_t5">26min</string>
-    <string name="dryer_t6">25min</string>
-    <string name="dryer_t7">24min</string>
-    <string name="dryer_t8">23min</string>
-    <string name="dryer_t9">22min</string>
-    <string name="dryer_t10">21min</string>
-    <string name="dryer_t11">20min</string>
-    <string name="dryer_t12">19min</string>
-    <string name="firebase_data">Firebase Data</string>
+    <string-array name="washers_times">
+        <item>45min</item>
+        <item>44min</item>
+        <item>43min</item>
+        <item>42min</item>
+        <item>41min</item>
+        <item>40min</item>
+        <item>39min</item>
+        <item>38min</item>
+        <item>37min</item>
+        <item>36min</item>
+        <item>35min</item>
+        <item>34min</item>
+    </string-array>
+
+    <string-array name="dryers">
+        <item>Dryer 1</item>
+        <item>Dryer 2</item>
+        <item>Dryer 3</item>
+        <item>Dryer 4</item>
+        <item>Dryer 5</item>
+        <item>Dryer 6</item>
+        <item>Dryer 7</item>
+        <item>Dryer 8</item>
+        <item>Dryer 9</item>
+        <item>Dryer 10</item>
+        <item>Dryer 11</item>
+        <item>Dryer 12</item>
+    </string-array>
+
+    <string-array name="dryers_times">
+        <item>30min</item>
+        <item>29min</item>
+        <item>28min</item>
+        <item>27min</item>
+        <item>26min</item>
+        <item>25min</item>
+        <item>24min</item>
+        <item>23min</item>
+        <item>22min</item>
+        <item>21min</item>
+        <item>20min</item>
+        <item>19min</item>
+    </string-array>
+
+<!--    <string name="washer1">Washer 1</string>-->
+<!--    <string name="washer2">Washer 2</string>-->
+<!--    <string name="washer3">Washer 3</string>-->
+<!--    <string name="washer4">Washer 4</string>-->
+<!--    <string name="washer5">Washer 5</string>-->
+<!--    <string name="washer6">Washer 6</string>-->
+<!--    <string name="washer7">Washer 7</string>-->
+<!--    <string name="washer8">Washer 8</string>-->
+<!--    <string name="washer9">Washer 9</string>-->
+<!--    <string name="washer10">Washer 10</string>-->
+<!--    <string name="washer11">Washer 11</string>-->
+<!--    <string name="washer12">Washer 12</string>-->
+
+<!--    <string name="dryer1">Dryer 1</string>-->
+<!--    <string name="dryer2">Dryer 2</string>-->
+<!--    <string name="dryer3">Dryer 3</string>-->
+<!--    <string name="dryer4">Dryer 4</string>-->
+<!--    <string name="dryer5">Dryer 5</string>-->
+<!--    <string name="dryer6">Dryer 6</string>-->
+<!--    <string name="dryer7">Dryer 7</string>-->
+<!--    <string name="dryer8">Dryer 8</string>-->
+<!--    <string name="dryer9">Dryer 9</string>-->
+<!--    <string name="dryer10">Dryer 10</string>-->
+<!--    <string name="dryer11">Dryer 11</string>-->
+<!--    <string name="dryer12">Dryer 12</string>-->
+
+<!--    <string name="washer_t1">45min</string>-->
+<!--    <string name="washer_t2">44min</string>-->
+<!--    <string name="washer_t3">43min</string>-->
+<!--    <string name="washer_t4">42min</string>-->
+<!--    <string name="washer_t5">41min</string>-->
+<!--    <string name="washer_t6">40min</string>-->
+<!--    <string name="washer_t7">39min</string>-->
+<!--    <string name="washer_t8">38min</string>-->
+<!--    <string name="washer_t9">37min</string>-->
+<!--    <string name="washer_t10">36min</string>-->
+<!--    <string name="washer_t11">35min</string>-->
+<!--    <string name="washer_t12">34min</string>-->
+
+<!--    <string name="dryer_t1">30min</string>-->
+<!--    <string name="dryer_t2">29min</string>-->
+<!--    <string name="dryer_t3">28min</string>-->
+<!--    <string name="dryer_t4">27min</string>-->
+<!--    <string name="dryer_t5">26min</string>-->
+<!--    <string name="dryer_t6">25min</string>-->
+<!--    <string name="dryer_t7">24min</string>-->
+<!--    <string name="dryer_t8">23min</string>-->
+<!--    <string name="dryer_t9">22min</string>-->
+<!--    <string name="dryer_t10">21min</string>-->
+<!--    <string name="dryer_t11">20min</string>-->
+<!--    <string name="dryer_t12">19min</string>-->
+<!--    <string name="firebase_data">Firebase Data</string>-->
 
 </resources>
