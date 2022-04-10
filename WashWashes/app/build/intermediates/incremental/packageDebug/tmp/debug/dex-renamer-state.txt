@@ -1,4 +1,4 @@
-#Fri Apr 01 22:03:44 SGT 2022
+#Sun Apr 10 22:13:58 SGT 2022
 base.2=/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 path.2=5/classes.dex
 base.1=/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

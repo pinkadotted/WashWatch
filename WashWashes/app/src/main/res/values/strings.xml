@@ -64,4 +64,5 @@
     <string name="dryer_t12">19min</string>
     <string name="firebase_data">Firebase Data</string>
 
+    <string name="blocks">55, 57, 59</string>
 </resources>

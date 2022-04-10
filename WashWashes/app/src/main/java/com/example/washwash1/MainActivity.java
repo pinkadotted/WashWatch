@@ -1,7 +1,6 @@
 package com.example.washwash1;
 
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -10,18 +9,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import io.realm.Realm;
-
 public class MainActivity extends AppCompatActivity {
+    public static final String TAG = "Logcat";
 
     // when the back button is pressed, we want to close the app
     private long pressedTime = 0;
@@ -41,28 +39,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button block55 = findViewById(R.id.block55);
-        Button block57 = findViewById(R.id.block57);
-        Button block59 = findViewById(R.id.block59);
+        Firebase.getInstance();
 
-        block55.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, Washer.class));
-            }
-        });
-        block57.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, Washer.class));
-            }
-        });
-        block59.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, Washer.class));
-            }
-        });
+        String[] blocks = new String[] {"55", "57", "59"};
+        Button[] hostel = new Button[blocks.length];
 
+        for(int idx=0; idx < blocks.length; idx++){
+            String buttonID = "block"+blocks[idx];
+            int resID = getResources().getIdentifier(buttonID, "id", getPackageName());
+            hostel[idx] = ((Button) findViewById(resID));
+            String ID = hostel[idx].getText().toString();
+            hostel[idx].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v){
+                    Firebase.setBlock(ID.substring(ID.length()-2));
+                    startActivity(new Intent(MainActivity.this, Washer.class));
+                }
+            });
+        }
     }
 }

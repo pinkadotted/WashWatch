@@ -3037,7 +3037,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textViewOfFireBase
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3322,6 +3321,7 @@ string appbar_scrolling_view_behavior
 string block_55
 string block_57
 string block_59
+string blocks
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3378,6 +3378,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_data
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

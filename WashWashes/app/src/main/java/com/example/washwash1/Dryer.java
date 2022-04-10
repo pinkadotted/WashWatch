@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -39,12 +40,10 @@ public class Dryer extends AppCompatActivity {
     private EditText reporter_name, reporter_hp, fault_description;
     private Button cancel_report, save_report;
 
-//    DatabaseReference mRootDatabaseRef;
-//    DatabaseReference mNodeRef;
-
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     private TextView retrieveTV;
+    public static final String TAG = "Logcat";
 
     // creating 12 report_buttons
     ImageButton report_dryer_1, report_dryer_2, report_dryer_3, report_dryer_4, report_dryer_5, report_dryer_6, report_dryer_7, report_dryer_8, report_dryer_9, report_dryer_10, report_dryer_11, report_dryer_12;
@@ -61,11 +60,8 @@ public class Dryer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dryer);
 
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference().child("dryer1");
         retrieveTV = findViewById(R.id.dryer1timing);
-        getData();
-        //databaseReference.setValue("99 mins");
+        Firebase.setView(retrieveTV, "dryer1");
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.dryer);
@@ -175,24 +171,6 @@ public class Dryer extends AppCompatActivity {
                         return true;
                 }
                 return false;
-            }
-        });
-    }
-
-    private void getData(){
-        databaseReference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Long value = snapshot.getValue(Long.class);
-                retrieveTV.setText(value.toString() + "min");
-                //toast line for debug purposes
-                Toast.makeText(Dryer.this, "onDataChange was called!", Toast.LENGTH_SHORT).show();
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(Dryer.this, "Fail to get data.", Toast.LENGTH_SHORT).show();
             }
         });
     }
