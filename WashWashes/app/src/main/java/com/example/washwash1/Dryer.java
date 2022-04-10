@@ -2,6 +2,9 @@ package com.example.washwash1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,12 +39,10 @@ public class Dryer extends AppCompatActivity {
     private EditText reporter_name, reporter_hp, fault_description;
     private Button cancel_report, save_report;
 
-    DatabaseReference mRootDatabaseRef;
-    DatabaseReference mNodeRef;
-
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     private TextView retrieveTV;
+    public static final String TAG = "Logcat";
 
     RecyclerView recyclerView;
 
@@ -64,6 +65,8 @@ public class Dryer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dryer);
 
+        //retrieveTV = findViewById(R.id.dryer1timing);
+        //Firebase.setView(retrieveTV, "dryer1");
         recyclerView = findViewById(R.id.recyclerView2);
 
         s1 = getResources().getStringArray(R.array.dryers);
@@ -99,6 +102,7 @@ public class Dryer extends AppCompatActivity {
 //        databaseReference.setValue("99 mins");
 
     }
+
 
 //    private void getData(){
 //        databaseReference.addValueEventListener(new ValueEventListener() {

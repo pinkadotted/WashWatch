@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7da657825cf2f55bac7d9084bcac50eb/transformed/relinker-1.4.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3e4b40af85bd79b67faae89ee542aa4/transformed/relinker-1.4.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3e4b40af85bd79b67faae89ee542aa4/transformed/relinker-1.4.3/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a3e4b40af85bd79b67faae89ee542aa4/transformed/relinker-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/00e2b3f76697b294d6704cf6dc0c2a0b/transformed/relinker-1.4.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/00e2b3f76697b294d6704cf6dc0c2a0b/transformed/relinker-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/00e2b3f76697b294d6704cf6dc0c2a0b/transformed/relinker-1.4.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.getkeepsafe.relinker/relinker/1.4.3/b445eff96b37af2f0749df14771465baf1914ccc/relinker-1.4.3-javadoc.jar!/" />

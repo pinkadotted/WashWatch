@@ -5,12 +5,11 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.4"
+        classpath 'com.android.tools.build:gradle:7.1.2'
         classpath "io.realm:realm-gradle-plugin:10.10.1"
         classpath 'com.google.gms:google-services:4.3.10'
     }
 }
-
 
 task clean(type: Delete) {
     delete rootProject.buildDir
