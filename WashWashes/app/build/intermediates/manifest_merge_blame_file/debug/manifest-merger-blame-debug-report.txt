@@ -6,186 +6,186 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
+8-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml
+9-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:9:5-79
-11-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:9:22-76
+11-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\nevil\.gradle\caches\transforms-3\35d446512eb9a534baf968b0332e8623\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:5-79
+11-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\nevil\.gradle\caches\transforms-3\35d446512eb9a534baf968b0332e8623\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:10:5-67
-12-->[io.realm:realm-android-library-object-server:10.10.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/35d446512eb9a534baf968b0332e8623/transformed/realm-android-library-object-server-10.10.1/AndroidManifest.xml:10:22-64
+12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\nevil\.gradle\caches\transforms-3\35d446512eb9a534baf968b0332e8623\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:5-67
+12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\nevil\.gradle\caches\transforms-3\35d446512eb9a534baf968b0332e8623\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:22-64
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:22-65
+13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:22-65
 14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:5-79
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:22-76
+14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:22-76
 15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:22-107
+15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:5:5-31:19
+17-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:5:5-31:19
 18        android:allowBackup="true"
-18-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:6:9-35
+18-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.7.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/e6e3502c1253fa0c0033fb0f7206469c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.7.0] C:\Users\nevil\.gradle\caches\transforms-3\e6e3502c1253fa0c0033fb0f7206469c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:7:9-43
+21-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:7:9-43
 22        android:label="@string/app_name"
-22-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:8:9-41
+22-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:8:9-41
 23        android:noHistory="true"
-23-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:13:9-33
+23-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:13:9-33
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:9:9-54
+24-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
-25-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:10:9-35
+25-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:10:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.WashWash1" >
-27-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:11:9-47
+27-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:11:9-47
 28        <activity
-28-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:14:9-22:20
+28-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:14:9-22:20
 29            android:name="com.example.washwash1.MainActivity"
-29-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:15:13-41
+29-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:15:13-41
 30            android:exported="true" >
-30-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:16:13-36
+30-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:16:13-36
 31            <intent-filter>
-31-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:17:13-21:29
+31-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:17:13-21:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:17-69
-32-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:18:25-66
+32-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:18:17-69
+32-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:18:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:20:17-77
-34-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:20:27-74
+34-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:20:17-77
+34-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:20:27-74
 35            </intent-filter>
 36        </activity>
 37        <activity
-37-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:23:9-26:46
+37-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:23:9-26:46
 38            android:name="com.example.washwash1.Washer"
-38-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:24:13-35
+38-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:24:13-35
 39            android:label="@string/washer"
-39-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:26:13-43
+39-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:26:13-43
 40            android:parentActivityName="com.example.washwash1.MainActivity" />
-40-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:25:13-55
+40-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:25:13-55
 41        <activity
-41-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:27:9-30:54
+41-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:27:9-30:54
 42            android:name="com.example.washwash1.Dryer"
-42-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:28:13-34
+42-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:28:13-34
 43            android:label="@string/dryer"
-43-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:30:13-42
+43-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:30:13-42
 44            android:parentActivityName="com.example.washwash1.MainActivity" />
-44-->/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/AndroidManifest.xml:29:13-55
+44-->C:\Users\nevil\AndroidStudioProjects\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:29:13-55
 45
 46        <service
-46-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:29:9-35:19
+46-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
 47            android:name="com.google.firebase.components.ComponentDiscoveryService"
-47-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:30:13-84
+47-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:30:13-84
 48            android:directBootAware="true"
-48-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+48-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
 49            android:exported="false" >
-49-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:31:13-37
+49-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:31:13-37
 50            <meta-data
-50-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+50-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
 51                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-51-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+51-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
 52                android:value="com.google.firebase.components.ComponentRegistrar" />
-52-->[com.google.firebase:firebase-database:20.0.4] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/f2b127de321d59a38f0bd77dde5ac58c/transformed/firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+52-->[com.google.firebase:firebase-database:20.0.4] C:\Users\nevil\.gradle\caches\transforms-3\f2b127de321d59a38f0bd77dde5ac58c\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
 53            <meta-data
-53-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:31:13-33:85
+53-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:31:13-33:85
 54                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-54-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:32:17-139
+54-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:32:17-139
 55                android:value="com.google.firebase.components.ComponentRegistrar" />
-55-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/47318d363548d186303fb297a4bba014/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:33:17-82
+55-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\47318d363548d186303fb297a4bba014\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:33:17-82
 56            <meta-data
-56-->[com.google.firebase:firebase-installations:17.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/c0b357b7f0fa55b2a23ba535f312174c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+56-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\nevil\.gradle\caches\transforms-3\c0b357b7f0fa55b2a23ba535f312174c\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
 57                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-57-->[com.google.firebase:firebase-installations:17.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/c0b357b7f0fa55b2a23ba535f312174c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+57-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\nevil\.gradle\caches\transforms-3\c0b357b7f0fa55b2a23ba535f312174c\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
 58                android:value="com.google.firebase.components.ComponentRegistrar" />
-58-->[com.google.firebase:firebase-installations:17.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/c0b357b7f0fa55b2a23ba535f312174c/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+58-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\nevil\.gradle\caches\transforms-3\c0b357b7f0fa55b2a23ba535f312174c\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
 59        </service>
 60
 61        <provider
-61-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+61-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
 62            android:name="com.google.firebase.provider.FirebaseInitProvider"
-62-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
 63            android:authorities="com.example.washwash1.firebaseinitprovider"
-63-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+63-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
 64            android:directBootAware="true"
-64-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+64-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
 65            android:exported="false"
-65-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+65-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
 66            android:initOrder="100" />
-66-->[com.google.firebase:firebase-common:20.1.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/8be898a6d28c3e758a3d864819e58a38/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+66-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nevil\.gradle\caches\transforms-3\8be898a6d28c3e758a3d864819e58a38\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
 67
 68        <activity
-68-->[com.google.android.gms:play-services-base:18.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/785ca3797cdadf19ee0b7e2d691c429d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nevil\.gradle\caches\transforms-3\785ca3797cdadf19ee0b7e2d691c429d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-69-->[com.google.android.gms:play-services-base:18.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/785ca3797cdadf19ee0b7e2d691c429d/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nevil\.gradle\caches\transforms-3\785ca3797cdadf19ee0b7e2d691c429d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 70            android:exported="false"
-70-->[com.google.android.gms:play-services-base:18.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/785ca3797cdadf19ee0b7e2d691c429d/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nevil\.gradle\caches\transforms-3\785ca3797cdadf19ee0b7e2d691c429d\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-71-->[com.google.android.gms:play-services-base:18.0.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/785ca3797cdadf19ee0b7e2d691c429d/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nevil\.gradle\caches\transforms-3\785ca3797cdadf19ee0b7e2d691c429d\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 72
 73        <receiver
-73-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:29:9-33:20
+73-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:29:9-33:20
 74            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-74-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:30:13-85
+74-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:30:13-85
 75            android:enabled="true"
-75-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:31:13-35
+75-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:31:13-35
 76            android:exported="false" >
-76-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:32:13-37
+76-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:32:13-37
 77        </receiver>
 78
 79        <service
-79-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:35:9-38:40
+79-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:35:9-38:40
 80            android:name="com.google.android.gms.measurement.AppMeasurementService"
-80-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:36:13-84
+80-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:36:13-84
 81            android:enabled="true"
-81-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:37:13-35
+81-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:37:13-35
 82            android:exported="false" />
-82-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:38:13-37
+82-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:38:13-37
 83        <service
-83-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:39:9-43:72
+83-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:39:9-43:72
 84            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-84-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:40:13-87
+84-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:40:13-87
 85            android:enabled="true"
-85-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:41:13-35
+85-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:41:13-35
 86            android:exported="false"
-86-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:42:13-37
+86-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:42:13-37
 87            android:permission="android.permission.BIND_JOB_SERVICE" />
-87-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/b07de0419615ff112181d63eb7a77beb/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:43:13-69
+87-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\nevil\.gradle\caches\transforms-3\b07de0419615ff112181d63eb7a77beb\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:43:13-69
 88
 89        <meta-data
-89-->[com.google.android.gms:play-services-basement:18.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/547da0731b786ed1d243a909b5fbe52b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nevil\.gradle\caches\transforms-3\547da0731b786ed1d243a909b5fbe52b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:18.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/547da0731b786ed1d243a909b5fbe52b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nevil\.gradle\caches\transforms-3\547da0731b786ed1d243a909b5fbe52b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
 91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:18.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/547da0731b786ed1d243a909b5fbe52b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nevil\.gradle\caches\transforms-3\547da0731b786ed1d243a909b5fbe52b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 92
 93        <provider
-93-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 94            android:name="androidx.startup.InitializationProvider"
-94-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 95            android:authorities="com.example.washwash1.androidx-startup"
-95-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 96            android:exported="false" >
-96-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 97            <meta-data
-97-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-98-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 99                android:value="androidx.startup" />
-99-->[androidx.emoji2:emoji2:1.0.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/d1256538ee6507fa2d26dd1c4d2553d1/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nevil\.gradle\caches\transforms-3\d1256538ee6507fa2d26dd1c4d2553d1\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 100            <meta-data
-100-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/760344cb538b96caa02375c088a72996/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nevil\.gradle\caches\transforms-3\760344cb538b96caa02375c088a72996\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-101-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/760344cb538b96caa02375c088a72996/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nevil\.gradle\caches\transforms-3\760344cb538b96caa02375c088a72996\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 102                android:value="androidx.startup" />
-102-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/760344cb538b96caa02375c088a72996/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nevil\.gradle\caches\transforms-3\760344cb538b96caa02375c088a72996\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 103        </provider>
 104    </application>
 105

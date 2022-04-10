@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\Users\\nevil\\AndroidStudioProjects\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/30b115e0f9932d90004f7b5a0bd12bb2/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\nevil\\.gradle\\caches\\transforms-3\\30b115e0f9932d90004f7b5a0bd12bb2\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

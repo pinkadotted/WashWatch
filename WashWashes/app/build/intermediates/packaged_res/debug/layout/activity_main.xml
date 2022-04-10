@@ -42,12 +42,12 @@
 <!--        android:scaleType="fitCenter"-->
 <!--        android:layout_marginLeft="3dp"-->
 <!--        app:srcCompat="@drawable/block59" />-->
-    <TextView
-        android:id="@+id/textViewOfFireBase"
-        android:text="@string/firebase_data"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+<!--    <TextView-->
+<!--        android:id="@+id/textViewOfFireBase"-->
+<!--        android:text="@string/firebase_data"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
 
 
     <androidx.appcompat.widget.AppCompatButton
