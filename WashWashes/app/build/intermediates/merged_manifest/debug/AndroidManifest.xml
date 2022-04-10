@@ -35,12 +35,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.washwash1.Washer"
+            android:name="com.example.washwash1.Machines"
             android:label="@string/washer"
-            android:parentActivityName="com.example.washwash1.MainActivity" />
-        <activity
-            android:name="com.example.washwash1.Dryer"
-            android:label="@string/dryer"
             android:parentActivityName="com.example.washwash1.MainActivity" />
 
         <service

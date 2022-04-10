@@ -1,6 +1,7 @@
 package com.example.washwash1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -17,19 +18,59 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.ListResult;
 import com.google.firebase.storage.StorageReference;
 
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-public class Firebase {
+public class Firebase{
 
     private static Firebase instance = null;
     private static String block;
+    private static String machine;
     static final String UTILS_TAG = "Logcat_FireBase";
     private static FirebaseDatabase firebaseDatabase;
     private static DatabaseReference databaseReference;
+    private static ArrayList<String> names = new ArrayList<>();
+    private static ArrayList<String> time = new ArrayList<>();
+    private static DatabaseReference submit;
+    private static int i;
 
     private Firebase(){
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
+
+        submit = databaseReference.child("Report");
+        submit.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                i = 1;
+                for (DataSnapshot c: snapshot.getChildren()){
+                    i += 1;
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+
+        DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
+        connectedRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                boolean connected = snapshot.getValue(Boolean.class);
+                if (connected) {
+                    Log.d(UTILS_TAG, "connected");
+                } else {
+                    Log.d(UTILS_TAG, "not connected");
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.w(UTILS_TAG, "Listener was cancelled");
+            }
+        });
     }
 
     public static Firebase getInstance(){
@@ -45,27 +86,60 @@ public class Firebase {
         Log.i(UTILS_TAG, n);
     }
 
-    public static String getBlock(){
-        return block;
+    public static void setMachine(String m){
+        machine = m;
+        Log.i(UTILS_TAG, m);
     }
 
-    static ArrayList<String> arrayList = new ArrayList<>();
+    public static void Report(String fault, String name, String hp){
+        DatabaseReference report = submit.child(String.valueOf(i));
+        report.child("Name").setValue(name);
+        report.child("Phone number").setValue(hp);
+        report.child("Description").setValue(fault);
+        Log.i(UTILS_TAG, "Report submitted");
+    }
 
-    public static DatabaseReference setView(TextView v, String machine){
-        Log.i(UTILS_TAG, "View is set");
-        DatabaseReference another = databaseReference.child(block).child(machine);
-        another.addValueEventListener(new ValueEventListener() {
+    public static void pullFromCloud(){
+        Log.i(UTILS_TAG, "Pulling from firebase");
+        DatabaseReference database = databaseReference.child(block).child(machine);
+        database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String data = snapshot.getValue(String.class);
-                v.setText(data);
-            }
+                Log.i(UTILS_TAG, "onChange");
+                names.clear();
+                time.clear();
+                for (DataSnapshot child : snapshot.getChildren()) {
 
+                    String key = child.getKey();
+                    String value = child.getValue(String.class);
+
+                    if(value != null){
+                        //System.out.println(post);
+                        names.add(key);
+                        time.add(value);
+                    }
+                }
+                Log.i(UTILS_TAG, names.toString());
+                Log.i(UTILS_TAG, time.toString());
+                Machines.myAdapter.update();
+                Machines.recyclerView.setAdapter(Machines.myAdapter);
+                Machines.recyclerView.setLayoutManager(Machines.gridLayoutManager);
+                Log.i(UTILS_TAG, "End of pulling");
+            }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
+                Log.w(UTILS_TAG, "Failed to read value.", error.toException());
             }
         });
-        return databaseReference.child(block).child("dryer1");
+    }
+
+    public static ArrayList<String> getArray(String type){
+        if (type.equals("names")){
+            return names;
+        }
+        else if (type.equals("time")){
+            return time;
+        }
+        return new ArrayList<>();
     }
 }

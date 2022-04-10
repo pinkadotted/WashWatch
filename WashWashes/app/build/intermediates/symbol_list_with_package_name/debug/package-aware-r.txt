@@ -63,10 +63,6 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
-array dryers
-array dryers_times
-array washers
-array washers_times
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2501,6 +2497,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dryer_green
 drawable dryer_red
+drawable dryer_yellow
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable greenmachine
@@ -2569,6 +2566,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable yellowmachine
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2924,7 +2922,6 @@ id radio
 id ratio
 id rectangles
 id recyclerView
-id recyclerView2
 id report_dryer_1
 id reporter_hp
 id reporter_name
@@ -3159,7 +3156,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_dryer
 layout activity_main
 layout activity_washer
 layout custom_dialog
@@ -3427,8 +3423,10 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string submit_text
 string title_activity_nav_bar
 string title_notifications
+string warning_blank_edit_text
 string washer
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -10,20 +10,25 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
 
-    String data1[], data2[];
+    String name[], time[];
     int images[];
     Context context;
-    LayoutInflater inflater;
 
     public MyAdapter(Context ct, String s1[], String s2[], int img[]){
         context = ct;
-        this.data1 = s1;
-        this.data2 = s2;
+        this.name = s1;
+        this.time = s2;
         this.images = img;
+    }
+
+    public void update(){
+        this.name = Firebase.getArray("names").toArray(new String [0]);
+        this.time = Firebase.getArray("time").toArray(new String[0]);
     }
 
     @NonNull
@@ -36,14 +41,23 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.text1.setText(data1[position]);
-        holder.text2.setText(data2[position]);
-        holder.images.setImageResource(images[position]);
+        holder.text1.setText(name[position]);
+        holder.text2.setText(time[position]);
+        if (time[position].equals("0 min")){
+            holder.images.setImageResource(images[2]);
+        }
+        else if(time[position].equals("Overrun")){
+            holder.images.setImageResource(images[1]);
+        }
+        else{
+            holder.images.setImageResource(images[0]);
+        }
+
     }
 
     @Override
     public int getItemCount() {
-        return data2.length;
+        return time.length;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

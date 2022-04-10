@@ -63,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v){
                     Firebase.setBlock(ID.substring(ID.length()-2));
-                    startActivity(new Intent(MainActivity.this, Washer.class));
+                    Firebase.setMachine("Washers");
+                    startActivity(new Intent(MainActivity.this, Machines.class));
                 }
             });
         }

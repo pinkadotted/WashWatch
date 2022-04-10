@@ -9,6 +9,9 @@
         <entry key="app/src/main/res/layout/activity_dryer.xml" value="0.24895833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20812182741116753" />
         <entry key="app/src/main/res/layout/activity_washer.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/relativelayout_custom_create.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/report_dryer_popup.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.115625" />
       </map>
     </option>
   </component>

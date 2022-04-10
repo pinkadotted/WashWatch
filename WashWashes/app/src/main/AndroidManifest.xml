@@ -21,13 +21,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Washer"
+            android:name=".Machines"
             android:parentActivityName=".MainActivity"
             android:label="@string/washer" />
-        <activity
-            android:name=".Dryer"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/dryer"></activity>
     </application>
 
 </manifest>

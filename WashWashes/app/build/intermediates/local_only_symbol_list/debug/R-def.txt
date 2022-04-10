@@ -1,9 +1,5 @@
 R_DEF: Internal format may change without notice
 local
-array dryers
-array dryers_times
-array washers
-array washers_times
 color black
 color colorAccent
 color colorPrimary
@@ -22,6 +18,7 @@ drawable button57
 drawable button59
 drawable dryer_green
 drawable dryer_red
+drawable dryer_yellow
 drawable greenmachine
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
@@ -34,6 +31,7 @@ drawable ic_timer
 drawable redmachine
 drawable report_button
 drawable selector
+drawable yellowmachine
 id action_settings
 id block55
 id block57
@@ -48,7 +46,6 @@ id imageView
 id name
 id phone
 id recyclerView
-id recyclerView2
 id report_dryer_1
 id reporter_hp
 id reporter_name
@@ -57,7 +54,6 @@ id text1
 id text2
 id washer
 id washer1
-layout activity_dryer
 layout activity_main
 layout activity_washer
 layout relativelayout_custom_create
@@ -86,8 +82,10 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string home
 string project_id
+string submit_text
 string title_activity_nav_bar
 string title_notifications
+string warning_blank_edit_text
 string washer
 style AppTheme
 style AppTheme.AppBarOverlay
