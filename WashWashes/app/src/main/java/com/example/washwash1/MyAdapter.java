@@ -41,7 +41,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.text1.setText(name[position]);
+        String machine_name = Firebase.getMachine();
+        holder.text1.setText(machine_name.substring(0, machine_name.length()-1) + " "+  name[position]);
         holder.text2.setText(time[position]);
         if (time[position].equals("0 min")){
             holder.images.setImageResource(images[2]);

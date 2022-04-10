@@ -91,6 +91,10 @@ public class Firebase{
         Log.i(UTILS_TAG, m);
     }
 
+    public static String getMachine(){
+        return machine;
+    }
+
     public static void Report(String fault, String name, String hp){
         DatabaseReference report = submit.child(String.valueOf(i));
         report.child("Name").setValue(name);
