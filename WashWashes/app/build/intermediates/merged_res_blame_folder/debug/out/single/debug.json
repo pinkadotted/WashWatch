@@ -152,8 +152,16 @@
         "source": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/res/mipmap-xxxhdpi/report_button.png"
     },
     {
+        "merged": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/merged_res/debug/drawable_dryer_green.png.flat",
+        "source": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/res/drawable/dryer_green.png"
+    },
+    {
         "merged": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/merged_res/debug/mipmap-mdpi_three_dots.png.flat",
         "source": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/res/mipmap-mdpi/three_dots.png"
+    },
+    {
+        "merged": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/merged_res/debug/drawable_dryer_red.png.flat",
+        "source": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/src/main/res/drawable/dryer_red.png"
     },
     {
         "merged": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/merged_res/debug/drawable_block59.png.flat",

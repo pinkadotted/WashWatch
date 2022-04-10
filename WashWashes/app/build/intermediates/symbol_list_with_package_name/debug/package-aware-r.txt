@@ -2499,6 +2499,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dryer_green
+drawable dryer_red
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable greenmachine

@@ -20,6 +20,8 @@ drawable block59
 drawable button55
 drawable button57
 drawable button59
+drawable dryer_green
+drawable dryer_red
 drawable greenmachine
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp

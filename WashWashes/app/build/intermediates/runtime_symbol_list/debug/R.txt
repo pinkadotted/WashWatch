@@ -2498,6 +2498,8 @@ int drawable design_ic_visibility 0x7f08007a
 int drawable design_ic_visibility_off 0x7f08007b
 int drawable design_password_eye 0x7f08007c
 int drawable design_snackbar_background 0x7f08007d
+int drawable dryer_green 0x7f0800c2
+int drawable dryer_red 0x7f0800c3
 int drawable googleg_disabled_color_18 0x7f08007e
 int drawable googleg_standard_color_18 0x7f08007f
 int drawable greenmachine 0x7f080080
