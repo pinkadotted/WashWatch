@@ -25,7 +25,9 @@ public class Machines extends AppCompatActivity {
 
     private AlertDialog.Builder dialogBuilder;
     private AlertDialog dialog;
-    private EditText reporter_name, reporter_hp, fault_description;
+    private EditText reporter_name, reporter_hp, fault_description, machine_id; // added machine_id
+
+
     private Button cancel_report, save_report;
     public static final String TAG = "Logcat_Washer";
 
@@ -104,6 +106,7 @@ public class Machines extends AppCompatActivity {
         fault_description = (EditText) reportPopUp.findViewById(R.id.fault_description);
         reporter_name = (EditText) reportPopUp.findViewById(R.id.reporter_name);
         reporter_hp = (EditText) reportPopUp.findViewById(R.id.reporter_hp);
+        machine_id = (EditText) reportPopUp.findViewById(R.id.machine_id);
 
         save_report = (Button) reportPopUp.findViewById(R.id.save_report);
         cancel_report = (Button) reportPopUp.findViewById(R.id.cancel_report);
@@ -115,6 +118,7 @@ public class Machines extends AppCompatActivity {
         save_report.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String machine_no = machine_id.getText().toString();
                 String fault = fault_description.getText().toString();
                 String name = reporter_name.getText().toString();
                 String hp = reporter_hp.getText().toString();
@@ -123,7 +127,7 @@ public class Machines extends AppCompatActivity {
                     toast.show();
                 }
                 else {
-                    Firebase.Report(fault, name, hp);
+                    Firebase.Report(machine_no, fault, name, hp);
                     Toast toast = Toast.makeText(Machines.this, R.string.submit_text, Toast.LENGTH_SHORT);
                     toast.show();
                     dialog.dismiss();

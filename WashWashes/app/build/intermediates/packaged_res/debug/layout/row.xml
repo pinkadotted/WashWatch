@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Washer">
+    tools:context=".Machines">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/washer1"
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="180dp"
         android:layout_margin="10dp"
         android:layout_marginStart="50dp"
