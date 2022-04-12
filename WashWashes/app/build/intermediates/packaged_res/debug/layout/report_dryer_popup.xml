@@ -11,27 +11,40 @@
         android:id="@+id/imageView"
         android:layout_width="151dp"
         android:layout_height="121dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/ic_person"
-        android:scaleX="0.8"
-        android:scaleY="0.8"/>
+        app:layout_constraintVertical_bias="0.129"
+        app:srcCompat="@drawable/ic_person" />
 
     <EditText
-        android:id="@+id/fault_description"
+        android:id="@+id/machine_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:layout_editor_absoluteX="0dp"
         android:textSize="24sp"
-        android:hint="What is the fault?"
+        android:hint="Machine ID"
         android:textColor="@color/purple_500"
         android:inputType="text"
         android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/fault_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:hint="Fault"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="0dp" />
 
     <EditText
         android:id="@+id/reporter_name"
@@ -63,19 +76,19 @@
         android:id="@+id/save_report"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reporter_hp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="436dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/cancel_report"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:text="Cancel"
-        app:layout_constraintTop_toBottomOf="@+id/save_report"
+        app:layout_constraintTop_toBottomOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
 

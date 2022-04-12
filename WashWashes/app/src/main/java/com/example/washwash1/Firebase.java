@@ -95,8 +95,9 @@ public class Firebase{
         return machine;
     }
 
-    public static void Report(String fault, String name, String hp){
+    public static void Report(String machine_id, String fault, String name, String hp){
         DatabaseReference report = submit.child(String.valueOf(i));
+        report.child("Machine ID").setValue(machine_id);
         report.child("Name").setValue(name);
         report.child("Phone number").setValue(hp);
         report.child("Description").setValue(fault);

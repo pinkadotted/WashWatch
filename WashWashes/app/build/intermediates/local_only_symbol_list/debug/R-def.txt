@@ -43,6 +43,7 @@ id fault
 id fault_description
 id image1
 id imageView
+id machine_id
 id name
 id phone
 id recyclerView
