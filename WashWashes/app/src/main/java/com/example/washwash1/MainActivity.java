@@ -59,12 +59,18 @@ public class MainActivity extends AppCompatActivity {
             int resID = getResources().getIdentifier(buttonID, "id", getPackageName());
             hostel[idx] = ((Button) findViewById(resID));
             String ID = hostel[idx].getText().toString();
+
             hostel[idx].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
-                    Firebase.setBlock(ID.substring(ID.length()-2));
-                    Firebase.setMachine("Washers");
-                    startActivity(new Intent(MainActivity.this, Machines.class));
+                    if (Firebase.getInstance().isNetworkAvailable(getApplicationContext())) {
+                        Firebase.setBlock(ID.substring(ID.length() - 2));
+                        Firebase.setMachine("Washers");
+                        startActivity(new Intent(MainActivity.this, Machines.class));
+                    }
+                    else {
+                        Toast.makeText(getApplicationContext(), "Please connect to internet to view machine statuses", Toast.LENGTH_LONG).show();
+                    }
                 }
             });
         }

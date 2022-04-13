@@ -23,6 +23,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 public class Firebase{
 
     private static Firebase instance = null;
@@ -35,6 +38,12 @@ public class Firebase{
     private static ArrayList<String> time = new ArrayList<>();
     private static DatabaseReference submit;
     private static int i;
+
+    public boolean isNetworkAvailable(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = cm.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isConnected();
+    }
 
     private Firebase(){
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -105,7 +114,7 @@ public class Firebase{
     }
 
     public static void pullFromCloud(){
-        Log.i(UTILS_TAG, "Pulling from firebase");
+        Log.i(UTILS_TAG, "Pulling from firebase " + block + " " +  machine);
         DatabaseReference database = databaseReference.child(block).child(machine);
         database.addValueEventListener(new ValueEventListener() {
             @Override

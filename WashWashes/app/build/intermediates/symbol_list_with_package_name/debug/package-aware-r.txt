@@ -3360,6 +3360,7 @@ string m3_sys_typescale_label_small_font
 string m3_sys_typescale_title_large_font
 string m3_sys_typescale_title_medium_font
 string m3_sys_typescale_title_small_font
+string machine
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection

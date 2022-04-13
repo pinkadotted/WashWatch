@@ -82,6 +82,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string home
+string machine
 string project_id
 string submit_text
 string title_activity_nav_bar

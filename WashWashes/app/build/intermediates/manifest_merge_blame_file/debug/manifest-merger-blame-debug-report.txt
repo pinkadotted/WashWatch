@@ -6,185 +6,188 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml
+8-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml
+9-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\65853\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:5-79
-11-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\65853\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:9:22-76
+11-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\65853\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:5-67
-12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\65853\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:22-64
+12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\Siyang\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:5-67
+12-->[io.realm:realm-android-library-object-server:10.10.1] C:\Users\Siyang\.gradle\caches\transforms-3\f36bf607109441e049ceb663f9c2e8f4\transformed\realm-android-library-object-server-10.10.1\AndroidManifest.xml:10:22-64
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:22-65
+13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:22-65
 14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:5-79
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:22-76
+14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:22-76
 15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:22-107
+15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:5:5-27:19
+17-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:7:5-29:19
 18        android:allowBackup="true"
-18-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:8:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.7.0] C:\Users\65853\.gradle\caches\transforms-3\62ec7cfc0089a99fe24c17f5d2932054\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.7.0] C:\Users\Siyang\.gradle\caches\transforms-3\62ec7cfc0089a99fe24c17f5d2932054\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:7:9-43
+21-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:9:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:8:9-41
+22-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:10:9-41
 23        android:noHistory="true"
-23-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:13:9-33
+23-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:15:9-33
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:9:9-54
+24-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:11:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:10:9-35
+25-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:12:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.WashWash1" >
-27-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:11:9-47
+27-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:13:9-47
 28        <activity
-28-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:14:9-22:20
+28-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:16:9-24:20
 29            android:name="com.example.washwash1.MainActivity"
-29-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:15:13-41
+29-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:17:13-41
 30            android:exported="true" >
-30-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:16:13-36
+30-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:18:13-36
 31            <intent-filter>
-31-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:17:13-21:29
+31-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:19:13-23:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:18:17-69
-32-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:18:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:20:17-77
-34-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:20:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:23:9-26:46
-38            android:name="com.example.washwash1.Machines"
-38-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:24:13-37
-39            android:label="@string/washer"
-39-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:26:13-43
-40            android:parentActivityName="com.example.washwash1.MainActivity" />
-40-->C:\Users\65853\Desktop\WashWatch-main\WashWatch-main\WashWashes\app\src\main\AndroidManifest.xml:25:13-55
-41
-42        <service
-42-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
-43            android:name="com.google.firebase.components.ComponentDiscoveryService"
-43-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:30:13-84
-44            android:directBootAware="true"
-44-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
-45            android:exported="false" >
-45-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:31:13-37
-46            <meta-data
-46-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
-47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-47-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
-48                android:value="com.google.firebase.components.ComponentRegistrar" />
-48-->[com.google.firebase:firebase-database:20.0.4] C:\Users\65853\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
-49            <meta-data
-49-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\65853\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
-50                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-50-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\65853\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
-51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\65853\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
-52            <meta-data
-52-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:31:13-33:85
-53                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-53-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:32:17-139
-54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:33:17-82
-55            <meta-data
-55-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\65853\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-56                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-56-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\65853\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-57                android:value="com.google.firebase.components.ComponentRegistrar" />
-57-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\65853\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-58        </service>
-59
-60        <provider
-60-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
-61            android:name="com.google.firebase.provider.FirebaseInitProvider"
-61-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
-62            android:authorities="com.example.washwash1.firebaseinitprovider"
-62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
-63            android:directBootAware="true"
-63-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
-64            android:exported="false"
-64-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
-65            android:initOrder="100" />
-65-->[com.google.firebase:firebase-common:20.1.0] C:\Users\65853\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
-66
-67        <activity
-67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\65853\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\65853\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\65853\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\65853\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-71
-72        <receiver
-72-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:29:9-33:20
-73            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-73-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:30:13-85
-74            android:enabled="true"
-74-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:31:13-35
-75            android:exported="false" >
-75-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:32:13-37
-76        </receiver>
-77
-78        <service
-78-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:35:9-38:40
-79            android:name="com.google.android.gms.measurement.AppMeasurementService"
-79-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:36:13-84
-80            android:enabled="true"
-80-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:37:13-35
-81            android:exported="false" />
-81-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:38:13-37
-82        <service
-82-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:39:9-43:72
-83            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-83-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:40:13-87
-84            android:enabled="true"
-84-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:41:13-35
-85            android:exported="false"
-85-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:42:13-37
-86            android:permission="android.permission.BIND_JOB_SERVICE" />
-86-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\65853\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:43:13-69
-87
-88        <meta-data
-88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\65853\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-89            android:name="com.google.android.gms.version"
-89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\65853\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-90            android:value="@integer/google_play_services_version" />
-90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\65853\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-91
-92        <provider
-92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-93            android:name="androidx.startup.InitializationProvider"
-93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-94            android:authorities="com.example.washwash1.androidx-startup"
-94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-95            android:exported="false" >
-95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-96            <meta-data
-96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-98                android:value="androidx.startup" />
-98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65853\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-99            <meta-data
-99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65853\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65853\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-101                android:value="androidx.startup" />
-101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65853\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-102        </provider>
-103    </application>
-104
-105</manifest>
+32-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:20:25-66
+33                <action android:name="android.intent.action.VIEW" />
+33-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:21:17-69
+33-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:22:17-77
+35-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:25:9-28:47
+39            android:name="com.example.washwash1.Machines"
+39-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:26:13-37
+40            android:label="@string/machine"
+40-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:28:13-44
+41            android:parentActivityName="com.example.washwash1.MainActivity" />
+41-->C:\Users\Siyang\OneDrive\Documents\GitHub\Info-Sys-1D\WashWatch\WashWashes\app\src\main\AndroidManifest.xml:27:13-55
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Siyang\.gradle\caches\transforms-3\4cdecfa79b5fc73d30bbb7a5958cf25d\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+51                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+51-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\53d35d77123643c4680b6356aeea9cfd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+53            <meta-data
+53-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:31:13-33:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+54-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:32:17-139
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.android.gms:play-services-measurement-api:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\808da89ac173490ede3e165efc52d345\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:33:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+57                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+57-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\d7c8a547210901de7c049e054b94d538\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+59        </service>
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+63            android:authorities="com.example.washwash1.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Siyang\.gradle\caches\transforms-3\70265859c0c85a2044c858eb455a1c60\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Siyang\.gradle\caches\transforms-3\1a2c742ed4d6d15a333127e070139c86\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+72
+73        <receiver
+73-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:29:9-33:20
+74            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+74-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:30:13-85
+75            android:enabled="true"
+75-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:31:13-35
+76            android:exported="false" >
+76-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:32:13-37
+77        </receiver>
+78
+79        <service
+79-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:35:9-38:40
+80            android:name="com.google.android.gms.measurement.AppMeasurementService"
+80-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:36:13-84
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:37:13-35
+82            android:exported="false" />
+82-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:38:13-37
+83        <service
+83-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:39:9-43:72
+84            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+84-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:40:13-87
+85            android:enabled="true"
+85-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:41:13-35
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:42:13-37
+87            android:permission="android.permission.BIND_JOB_SERVICE" />
+87-->[com.google.android.gms:play-services-measurement:20.1.1] C:\Users\Siyang\.gradle\caches\transforms-3\9dccea70e9f696e3b903e9f6db2cc617\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:43:13-69
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\fffe9823b1d038a9402800c695155f84\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+95            android:authorities="com.example.washwash1.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Siyang\.gradle\caches\transforms-3\a3bee845899061912c518dc0e3b62f60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Siyang\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Siyang\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Siyang\.gradle\caches\transforms-3\e08429a7f23a0d91278f006e9484aea6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+103        </provider>
+104    </application>
+105
+106</manifest>
