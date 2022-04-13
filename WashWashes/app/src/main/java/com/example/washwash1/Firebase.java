@@ -101,8 +101,8 @@ public class Firebase{
     }
 
     public static void pullFromCloud(){
-        Log.i(UTILS_TAG, "Pulling from firebase " + block + " " +  machine);
-        DatabaseReference database = databaseReference.child(block).child(machine);
+        Log.i(UTILS_TAG, "Pulling from firebase block " + block + " " +  machine);
+        DatabaseReference database = databaseReference.child(block).child("Washers");
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -110,14 +110,22 @@ public class Firebase{
                 names.clear();
                 time.clear();
                 for (DataSnapshot child : snapshot.getChildren()) {
+                    Long value = child.child("default_time_end").getValue(Long.class);
+                    //java.util.Date temp = new java.util.Date((long)value*1000);
+                    //Log.i(UTILS_TAG, temp.toString());
+                    //temp = new java.util.Date((long)System.currentTimeMillis());
+                    //Log.i(UTILS_TAG, temp.toString());
+                    Long timeleft = (value*1000 - System.currentTimeMillis())/60000;
+                    if (timeleft < 0){
+                        timeleft = new Long(0);
+                    }
 
                     String key = child.getKey();
-                    String value = child.getValue(String.class);
 
                     if(value != null){
                         //System.out.println(post);
                         names.add(key);
-                        time.add(value);
+                        time.add(timeleft.toString() + " min");
                     }
                 }
                 Log.i(UTILS_TAG, names.toString());
