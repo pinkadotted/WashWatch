@@ -44,7 +44,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        String machine_name = Firebase.getMachine();
+        String machine_name = Firebase.getMachineType();
         // logic for setting machine name as "Washer"/"Dryer" + number ??
         holder.text1.setText(machine_name.substring(0, machine_name.length()-1) + " "+  name[position]);
         holder.text2.setText(time[position]);

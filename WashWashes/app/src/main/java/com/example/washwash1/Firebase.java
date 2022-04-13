@@ -30,7 +30,7 @@ public class Firebase{
 
     private static Firebase instance = null;
     private static String block;
-    private static String machine;
+    private static String machineType;
     static final String UTILS_TAG = "Logcat_FireBase";
     private static FirebaseDatabase firebaseDatabase;
     private static DatabaseReference databaseReference;
@@ -53,9 +53,12 @@ public class Firebase{
         submit.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                i = 1;
+                i = 0;
                 for (DataSnapshot c: snapshot.getChildren()){
-                    i += 1;
+                    int value = Integer.valueOf(c.getKey());
+                    if (value > i){
+                        i = value + 1;
+                    }
                 }
             }
             @Override
@@ -77,8 +80,8 @@ public class Firebase{
         Log.i(UTILS_TAG, n);
     }
 
-    public static void setMachine(String m){
-        machine = m;
+    public static void setMachineType(String m){
+        machineType = m;
         Log.i(UTILS_TAG, m);
         if (m.equals("Washers")){
             Log.i(UTILS_TAG, "Images set to washer");
@@ -90,8 +93,12 @@ public class Firebase{
         }
     }
 
-    public static String getMachine(){
-        return machine;
+    public static String getMachineType(){
+        return machineType;
+    }
+
+    public static String getBlock(){
+        return block;
     }
 
     public static void Report(Report make_report){
@@ -101,8 +108,8 @@ public class Firebase{
     }
 
     public static void pullFromCloud(){
-        Log.i(UTILS_TAG, "Pulling from firebase block " + block + " " +  machine);
-        DatabaseReference database = databaseReference.child(block).child("Washers");
+        Log.i(UTILS_TAG, "Pulling from firebase block " + block + " " +  machineType);
+        DatabaseReference database = databaseReference.child(block).child(machineType);
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -111,10 +118,10 @@ public class Firebase{
                 time.clear();
                 for (DataSnapshot child : snapshot.getChildren()) {
                     Long value = child.child("default_time_end").getValue(Long.class);
-                    //java.util.Date temp = new java.util.Date((long)value*1000);
-                    //Log.i(UTILS_TAG, temp.toString());
-                    //temp = new java.util.Date((long)System.currentTimeMillis());
-                    //Log.i(UTILS_TAG, temp.toString());
+                    java.util.Date temp = new java.util.Date((long)value*1000);
+                    Log.i(UTILS_TAG, temp.toString());
+                    temp = new java.util.Date((long)System.currentTimeMillis());
+                    Log.i(UTILS_TAG, temp.toString());
                     Long timeleft = (value*1000 - System.currentTimeMillis())/60000;
                     if (timeleft < 0){
                         timeleft = new Long(0);
@@ -122,11 +129,9 @@ public class Firebase{
 
                     String key = child.getKey();
 
-                    if(value != null){
-                        //System.out.println(post);
-                        names.add(key);
-                        time.add(timeleft.toString() + " min");
-                    }
+                    //System.out.println(post);
+                    names.add(key);
+                    time.add(timeleft.toString() + " min");
                 }
                 Log.i(UTILS_TAG, names.toString());
                 Log.i(UTILS_TAG, time.toString());

@@ -31,7 +31,7 @@ public class Machines extends AppCompatActivity {
 
 
     private Button cancel_report, save_report;
-    public static final String TAG = "Logcat_Washer";
+    public static final String TAG = "Logcat_Machine";
 
     public static RecyclerView recyclerView;
     public static MyAdapter myAdapter;
@@ -49,6 +49,7 @@ public class Machines extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Block " + Firebase.getBlock());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_washer);
         //Pulling Data from Firebase
@@ -81,11 +82,11 @@ public class Machines extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
                     case R.id.dryer:
-                        Firebase.setMachine("Dryers");
+                        Firebase.setMachineType("Dryers");
                         Firebase.pullFromCloud();
                         return true;
                     case R.id.washer:
-                        Firebase.setMachine("Washers");
+                        Firebase.setMachineType("Washers");
                         Firebase.pullFromCloud();
                         return true;
                 }

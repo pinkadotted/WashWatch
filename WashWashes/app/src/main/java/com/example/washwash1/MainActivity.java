@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v){
                     if (Firebase.getInstance().isNetworkAvailable(getApplicationContext())) {
                         Firebase.setBlock(ID.substring(ID.length() - 2));
-                        Firebase.setMachine("Washers");
+                        Firebase.setMachineType("Washers");
                         startActivity(new Intent(MainActivity.this, Machines.class));
                     }
                     else {
