@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.database.core.Repo;
 
 import java.util.ArrayList;
 
@@ -118,16 +119,13 @@ public class Machines extends AppCompatActivity {
         save_report.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String machine_no = machine_id.getText().toString();
-                String fault = fault_description.getText().toString();
-                String name = reporter_name.getText().toString();
-                String hp = reporter_hp.getText().toString();
-                if (fault.isEmpty() || name.isEmpty() || hp.isEmpty()){
+                Report make_report = new Report(machine_id.getText().toString(), fault_description.getText().toString(), reporter_name.getText().toString(), reporter_hp.getText().toString());
+                if (make_report.isEmpty()){
                     Toast toast = Toast.makeText(Machines.this, R.string.warning_blank_edit_text, Toast.LENGTH_SHORT);
                     toast.show();
                 }
                 else {
-                    Firebase.Report(machine_no, fault, name, hp);
+                    Firebase.Report(make_report);
                     Toast toast = Toast.makeText(Machines.this, R.string.submit_text, Toast.LENGTH_SHORT);
                     toast.show();
                     dialog.dismiss();

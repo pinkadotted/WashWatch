@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Siyang\\OneDrive\\Documents\\GitHub\\Info-Sys-1D\\WashWatch\\WashWashes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+            "outputFile": "/Users/Ivan_Feng_Jun_Kai/Desktop/SUTD/2022 Term 4/Intro to information system/App Making/WashWatch/WashWashes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Siyang\\.gradle\\caches\\transforms-3\\10d5707ee62e6f030910729fac8dbee4\\transformed\\material-1.5.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "/Users/Ivan_Feng_Jun_Kai/.gradle/caches/transforms-3/10d5707ee62e6f030910729fac8dbee4/transformed/material-1.5.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
