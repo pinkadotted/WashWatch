@@ -29,6 +29,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     public void update(){
         this.name = Firebase.getArray("names").toArray(new String [0]);
         this.time = Firebase.getArray("time").toArray(new String[0]);
+        this.images = Machines.images;
     }
 
     @NonNull

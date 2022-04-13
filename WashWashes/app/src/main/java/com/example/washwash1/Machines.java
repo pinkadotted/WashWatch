@@ -35,7 +35,9 @@ public class Machines extends AppCompatActivity {
     public static RecyclerView recyclerView;
     public static MyAdapter myAdapter;
     public static GridLayoutManager gridLayoutManager;
-    static int images[] = {R.drawable.redmachine, R.drawable.yellowmachine, R.drawable.greenmachine };
+    static int[] washer_images = {R.drawable.redmachine, R.drawable.yellowmachine, R.drawable.greenmachine };
+    static int[] dryer_images = {R.drawable.dryer_red, R.drawable.dryer_yellow, R.drawable.dryer_green };
+    static int[] images;
 
     // to ensure that the app goes to Washer when the android back button is pressed
     @Override

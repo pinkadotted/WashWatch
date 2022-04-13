@@ -62,24 +62,6 @@ public class Firebase{
             public void onCancelled(@NonNull DatabaseError error) {
             }
         });
-
-        DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
-        connectedRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                boolean connected = snapshot.getValue(Boolean.class);
-                if (connected) {
-                    Log.d(UTILS_TAG, "connected");
-                } else {
-                    Log.d(UTILS_TAG, "not connected");
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Log.w(UTILS_TAG, "Listener was cancelled");
-            }
-        });
     }
 
     public static Firebase getInstance(){
@@ -98,6 +80,14 @@ public class Firebase{
     public static void setMachine(String m){
         machine = m;
         Log.i(UTILS_TAG, m);
+        if (m.equals("Washers")){
+            Log.i(UTILS_TAG, "Images set to washer");
+            Machines.images = Machines.washer_images;
+        }
+        else if (m.equals("Dryers")){
+            Log.i(UTILS_TAG, "Images set to dryer");
+            Machines.images = Machines.dryer_images;
+        }
     }
 
     public static String getMachine(){
