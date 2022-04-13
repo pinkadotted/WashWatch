@@ -51,6 +51,7 @@ id report_dryer_1
 id reporter_hp
 id reporter_name
 id save_report
+id swipeContainer
 id text1
 id text2
 id washer

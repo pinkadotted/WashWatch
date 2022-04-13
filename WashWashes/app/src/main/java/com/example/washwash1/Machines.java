@@ -5,6 +5,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +24,7 @@ import com.google.firebase.database.core.Repo;
 import java.util.ArrayList;
 
 public class Machines extends AppCompatActivity {
-
+    private SwipeRefreshLayout swipeContainer;
     private AlertDialog.Builder dialogBuilder;
     private AlertDialog dialog;
     private EditText reporter_name, reporter_hp, fault_description, machine_id; // added machine_id
@@ -50,9 +51,21 @@ public class Machines extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_washer);
-
         //Pulling Data from Firebase
         Firebase.pullFromCloud();
+
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+
+                // Your code to refresh the list here.
+                Firebase.pullFromCloud();
+                // Make sure you call swipeContainer.setRefreshing(false)
+               // once the network request has completed successfully.
+                swipeContainer.setRefreshing(false);
+            }
+        });
 
         //Setting up recycle view, and the number of cards is dependent on the Firebase
         recyclerView = findViewById(R.id.recyclerView);
