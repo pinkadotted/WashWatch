@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import time
 import json
-from dateutil import parser
+# from dateutil import parser
 import RPi.GPIO as GPIO
 import firebase_admin
 from firebase_admin import db
@@ -19,9 +19,9 @@ class vibration:
         # new_data is for updating the time in the db when the machine first starts
         new_data = {
                 'in_use': True,
-                'time_start': str(datetime.now()),
-                'default_time_end': str(datetime.now() + timedelta(minutes=37)), # 37 mins + time_start
-                'overrun': False # if the machine is still running past the default end time
+                'time_start': int(time.time()),
+                'default_time_end': int(time.mktime((datetime.now() + timedelta(minutes=3)).timetuple())), # 37 mins + time_start
+                # 'overrun': False # if the machine is still running past the default end time
                 }
         self.vibration_rate += 1
         print("vibration_rate: ", self.vibration_rate)
@@ -29,24 +29,29 @@ class vibration:
         if (time.time()-self.last_time_checked)>60:
             if self.vibration_rate >= self.threshold: # machine is active
                 print("Threshold met -- machine active")
-                self.vibration_rate = 0
-                self.last_time_checked = time.time()
+                # self.vibration_rate = 0
+                # self.last_time_checked = time.time()
                 # machine in use + vibration > threshold
-                if self.new_cycle:
+                if self.new_cycle and not current_state["in_use"]:
                     ref.update(new_data)
                     self.new_cycle = False
                     return
                 if current_state["in_use"]:
-                    if datetime.now() - timedelta(seconds=30) > parser.parse(current_state["default_time_end"]):
+                    if int(time.mktime((datetime.now() - timedelta(seconds=30)).timetuple())) > current_state["default_time_end"]:
+                        print("1--",int(time.mktime((datetime.now() - timedelta(seconds=30)).timetuple())))
+                        print("1--",current_state["default_time_end"])
                         # force machine state to end
                         new_data = { 
                             'in_use': False,
-                            'time_start': "",
-                            'default_time_end': "",
+                            'time_start': 0,
+                            'default_time_end': 0,
                             }
                         ref.update(new_data)
                         self.new_cycle = True
                 #else: machine not in use + vibration > threshold
+            # else:
+            self.vibration_rate = 0
+            self.last_time_checked = time.time()
 
 if __name__ == '__main__':
 
@@ -62,7 +67,7 @@ if __name__ == '__main__':
     default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"https://washwatch-a725a-default-rtdb.firebaseio.com/"
 	})
-    ref = db.reference("/57/Washers/57_W1")
+    ref = db.reference("/57/Washers/1")
 
     # let us know when the pin goes HIGH or LOW
     GPIO.add_event_detect(channel, GPIO.BOTH, bouncetime=300) 
