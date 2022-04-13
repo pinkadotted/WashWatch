@@ -1,6 +1,7 @@
 package com.example.washwash1;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     String name[], time[];
     int images[];
     Context context;
+    public static final String TAG = "Logcat";
 
     public MyAdapter(Context ct, String s1[], String s2[], int img[]){
         context = ct;
@@ -47,10 +49,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
         holder.text1.setText(machine_name.substring(0, machine_name.length()-1) + " "+  name[position]);
         holder.text2.setText(time[position]);
         // logic for setting each washer colour based on time remaining?
-        if (time[position].equals("0 min")){
+        int time_left = Integer.valueOf(time[position].substring(0,time[position].length()-4));
+        if (time_left <= 0){
             holder.images.setImageResource(images[2]);
         }
-        else if(time[position].equals("Overrun")){
+        else if(time_left <= 10){
             holder.images.setImageResource(images[1]);
         }
         else{
