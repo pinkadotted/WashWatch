@@ -30,7 +30,7 @@ public class Machines extends AppCompatActivity {
     private EditText reporter_name, reporter_hp, fault_description, machine_id; // added machine_id
 
 
-    private Button cancel_report, save_report;
+    private Button save_report;
     public static final String TAG = "Logcat_Machine";
 
     public static RecyclerView recyclerView;
@@ -39,6 +39,8 @@ public class Machines extends AppCompatActivity {
     static int[] washer_images = {R.drawable.redmachine, R.drawable.yellowmachine, R.drawable.greenmachine };
     static int[] dryer_images = {R.drawable.dryer_red, R.drawable.dryer_yellow, R.drawable.dryer_green };
     static int[] images;
+
+    private String machineType;
 
     // to ensure that the app goes to Washer when the android back button is pressed
     @Override
@@ -53,7 +55,8 @@ public class Machines extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_washer);
         //Pulling Data from Firebase
-        Firebase.pullFromCloud();
+        machineType = "Washers"; //show "Washers" when Machines is first called
+        Firebase.pullFromCloud(machineType);
 
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -61,7 +64,7 @@ public class Machines extends AppCompatActivity {
             public void onRefresh() {
 
                 // Your code to refresh the list here.
-                Firebase.pullFromCloud();
+                Firebase.pullFromCloud(machineType);
                 // Make sure you call swipeContainer.setRefreshing(false)
                // once the network request has completed successfully.
                 swipeContainer.setRefreshing(false);
@@ -82,12 +85,12 @@ public class Machines extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
                     case R.id.dryer:
-                        Firebase.setMachineType("Dryers");
-                        Firebase.pullFromCloud();
+                        machineType = "Dryers";
+                        Firebase.pullFromCloud(machineType);
                         return true;
                     case R.id.washer:
-                        Firebase.setMachineType("Washers");
-                        Firebase.pullFromCloud();
+                        machineType = "Washers";
+                        Firebase.pullFromCloud(machineType);
                         return true;
                 }
                 return false;
@@ -126,7 +129,6 @@ public class Machines extends AppCompatActivity {
         machine_id = (EditText) reportPopUp.findViewById(R.id.machine_id);
 
         save_report = (Button) reportPopUp.findViewById(R.id.save_report);
-        cancel_report = (Button) reportPopUp.findViewById(R.id.cancel_report);
 
         dialogBuilder.setView(reportPopUp);
         dialog = dialogBuilder.create();
@@ -147,13 +149,6 @@ public class Machines extends AppCompatActivity {
                     dialog.dismiss();
                 }
                 // define save button here!
-            }
-        });
-
-        cancel_report.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
             }
         });
     }

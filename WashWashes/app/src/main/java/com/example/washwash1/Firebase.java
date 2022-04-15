@@ -107,38 +107,45 @@ public class Firebase{
         Log.i(UTILS_TAG, "Report submitted");
     }
 
-    public static void pullFromCloud(){
+    public static void pullFromCloud(String machine){
+        setMachineType(machine);
         Log.i(UTILS_TAG, "Pulling from firebase block " + block + " " +  machineType);
         DatabaseReference database = databaseReference.child(block).child(machineType);
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Log.i(UTILS_TAG, "onChange");
-                names.clear();
-                time.clear();
-                for (DataSnapshot child : snapshot.getChildren()) {
-                    Long value = child.child("default_time_end").getValue(Long.class);
-                    java.util.Date temp = new java.util.Date((long)value*1000);
-                    Log.i(UTILS_TAG, temp.toString());
-                    temp = new java.util.Date((long)System.currentTimeMillis());
-                    Log.i(UTILS_TAG, temp.toString());
-                    Long timeleft = (value*1000 - System.currentTimeMillis())/60000;
-                    if (timeleft < 0){
-                        timeleft = new Long(0);
+                //Log.i(UTILS_TAG,"my database is " + databaseReference.child(block).toString());
+                Log.i(UTILS_TAG, "Database from snapshot is " + snapshot.getRef().getParent().getKey());
+                Log.i(UTILS_TAG,"my current machine type is " + machineType);
+                if (snapshot.getKey().equals(machineType) && snapshot.getRef().getParent().getKey().equals(block)){
+                    Log.i(UTILS_TAG, "onChange");
+                    names.clear();
+                    time.clear();
+                    Log.i(UTILS_TAG, snapshot.toString());
+                    for (DataSnapshot child : snapshot.getChildren()) {
+                        Long value = child.child("default_time_end").getValue(Long.class);
+                        java.util.Date temp = new java.util.Date((long)value*1000);
+                        Log.i(UTILS_TAG, temp.toString());
+                        temp = new java.util.Date((long)System.currentTimeMillis());
+                        Log.i(UTILS_TAG, temp.toString());
+                        Long timeleft = (value*1000 - System.currentTimeMillis())/60000;
+                        if (timeleft < 0){
+                            timeleft = new Long(0);
+                        }
+
+                        String key = child.getKey();
+
+                        //System.out.println(post);
+                        names.add(key);
+                        time.add(timeleft.toString() + " min");
                     }
-
-                    String key = child.getKey();
-
-                    //System.out.println(post);
-                    names.add(key);
-                    time.add(timeleft.toString() + " min");
+                    Log.i(UTILS_TAG, names.toString());
+                    Log.i(UTILS_TAG, time.toString());
+                    Machines.myAdapter.update();
+                    Machines.recyclerView.setAdapter(Machines.myAdapter);
+                    Machines.recyclerView.setLayoutManager(Machines.gridLayoutManager);
+                    Log.i(UTILS_TAG, "End of pulling");
                 }
-                Log.i(UTILS_TAG, names.toString());
-                Log.i(UTILS_TAG, time.toString());
-                Machines.myAdapter.update();
-                Machines.recyclerView.setAdapter(Machines.myAdapter);
-                Machines.recyclerView.setLayoutManager(Machines.gridLayoutManager);
-                Log.i(UTILS_TAG, "End of pulling");
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
