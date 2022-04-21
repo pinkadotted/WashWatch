@@ -90,7 +90,7 @@ public class Machines extends AppCompatActivity {
                         return true;
                     case R.id.washer:
                         machineType = "Washers";
-                        Firebase.pullFromCloud(machineType);
+                        Firebase.pullFromCloud(machineType  );
                         return true;
                 }
                 return false;
