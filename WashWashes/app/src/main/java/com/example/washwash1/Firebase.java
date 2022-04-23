@@ -55,8 +55,8 @@ public class Firebase{
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 i = 0;
                 for (DataSnapshot c: snapshot.getChildren()){
-                    int value = Integer.valueOf(c.getKey());
-                    if (value > i){
+                    int value = Integer.parseInt(c.getKey());
+                    if (value >= i){
                         i = value + 1;
                     }
                 }
@@ -104,6 +104,7 @@ public class Firebase{
     public static void Report(Report make_report){
         DatabaseReference report = submit.child(String.valueOf(i));
         report.setValue(make_report);
+        Log.i(UTILS_TAG, String.valueOf(i));
         Log.i(UTILS_TAG, "Report submitted");
     }
 
@@ -123,24 +124,17 @@ public class Firebase{
                     time.clear();
                     Log.i(UTILS_TAG, snapshot.toString());
                     for (DataSnapshot child : snapshot.getChildren()) {
-                        Long value = child.child("default_time_end").getValue(Long.class);
-                        java.util.Date temp = new java.util.Date((long)value*1000);
-                        Log.i(UTILS_TAG, temp.toString());
-                        temp = new java.util.Date((long)System.currentTimeMillis());
-                        Log.i(UTILS_TAG, temp.toString());
-                        Long timeleft = (value*1000 - System.currentTimeMillis())/60000;
+                        long value = child.child("default_time_end").getValue(Long.class);
+                        long timeleft = (value*1000 - System.currentTimeMillis())/60000;
                         if (timeleft < 0){
-                            timeleft = new Long(0);
+                            timeleft = 0L;
                         }
 
                         String key = child.getKey();
 
-                        //System.out.println(post);
                         names.add(key);
-                        time.add(timeleft.toString() + " min");
+                        time.add(Long.toString(timeleft) + " min");
                     }
-                    Log.i(UTILS_TAG, names.toString());
-                    Log.i(UTILS_TAG, time.toString());
                     Machines.myAdapter.update();
                     Machines.recyclerView.setAdapter(Machines.myAdapter);
                     Machines.recyclerView.setLayoutManager(Machines.gridLayoutManager);
