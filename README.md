@@ -30,10 +30,17 @@ Under what circumstances will the washer/dryer icon turn from RED to GREEN:
 2. If the timer of the machine counts all the way down to 0min
 
 Team 2D
+
 1005035         	Wee Neville
+
 1005141         	M S Subesh Kumar
+
 1005458         	Cheong Cher Lynn
+
 1005010         	Dhanush Kumar Manogar
+
 1005128         	Shawn Choo
+
 1005485         	Wang Siyang
+
 1005269         	Ivan Feng
